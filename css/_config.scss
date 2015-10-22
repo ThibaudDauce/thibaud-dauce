@@ -1,0 +1,40 @@
+@mixin border-radius($radius) {
+  -moz-border-radius: $radius;
+  -webkit-border-radius: $radius;
+  -ms-border-radius: $radius;
+  border-radius: $radius;
+}
+
+@mixin top-border-radius($radius) {
+  -moz-border-radius: $radius $radius 0 0;
+  -webkit-border-radius: $radius $radius 0 0;
+  -ms-border-radius: $radius $radius 0 0;
+  border-radius: $radius $radius 0 0;
+}
+
+@mixin rotate($degrees) {
+  -moz-transform: rotate($degrees);
+  -o-transform: rotate($degrees);
+  -webkit-transform: rotate($degrees);
+  filter: progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)});
+  -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(sizingMethod='auto expand', M11=#{cos($degrees)}, M12=-#{sin($degrees)}, M21=#{sin($degrees)}, M22=#{cos($degrees)})";
+  zoom: 1;
+}
+
+$breakpointExperiences: 1024px;
+$breakpointTwoCards: $breakpointExperiences;
+$breakpointOneCard: 600px;
+
+$padding: 30px;
+
+$height-header: 400px;
+
+$width-image: 150px;
+
+$position-top: -150px;
+$width-content: 1000px;
+
+$flash: #E87E04;
+$soft-black: #22313F;
+
+$blanc: #F6F8F9;

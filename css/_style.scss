@@ -1,0 +1,146 @@
+h1 {
+	font-weight: 300;
+	margin-bottom: 30px;
+}
+
+h2 {
+	font-weight: 300;
+}
+
+nav {
+	font-size: $h2-size;
+	font-weight: 300;
+	text-align: center;
+
+	padding-bottom: 1rem;
+	border-bottom: 1px solid $flash;
+}
+
+a {
+	text-decoration: none;
+	color: $flash;
+
+	&:visited, &:hover {
+		color: $flash;
+	}
+
+	&.button	{
+		display: inline-block;
+		padding: 1rem;
+		margin: auto;
+		background-color: $flash;
+		color: white;
+	}
+
+	&.read-more {
+		margin-top: 40px;
+
+		font-size: 2rem;
+		line-height: 3rem;
+
+		color: #354B60;
+	}
+}
+
+.fa {
+	font-weight: 300;
+
+	&.big {
+		font-size: 5rem;
+		line-height: 6rem;
+	}
+
+	&.medium {
+		font-size: 3rem;
+		line-height: 4rem;
+	}
+}
+
+strong {
+	font-weight: 400;
+}
+
+#up {
+	display: block;
+	float: right;
+
+	margin-top: 10px;
+
+	width: 40px;
+	height: 40px;
+
+	line-height: 40px;
+	text-align: center;
+
+	background-color: $flash;
+	color: white;
+}
+
+body {
+
+	background-color: #CBD0D3;
+}
+
+#content {
+
+	position: relative;
+	top: $position-top;
+
+	@media screen and (max-width: $breakpointOneCard) {
+		top: $position-top + 60px;
+	}
+
+	@media screen and (max-width: 500px) {
+		top: $position-top + 80px;
+	}
+
+	margin: auto;
+	width: 90%;
+
+	article {
+
+		background-color: $blanc;
+		margin-top: 20px;
+		padding: 15px $padding;
+		font-weight: 300;
+
+		&.post {
+			img {
+				width: 50%;
+				margin: 15px auto 0;
+			}
+
+			.caption {
+				text-align: center;
+				font-style: italic;
+				font-size: 1.2rem;
+			}
+		}
+
+		img {
+			display: block;
+
+			max-width: 100%;
+			margin: 20px auto 20px auto;
+		}
+
+		p {
+			-moz-hyphens: auto;
+			-ms-hyphens: auto;
+			-webkit-hyphens: auto;
+			hyphens: auto;
+
+			text-align: justify;
+		}
+
+		footer {
+			margin-top: 2rem;
+			text-align: center;
+		}
+
+		.center {
+
+			text-align: center;
+		}
+	}
+}

@@ -1,0 +1,15 @@
+$for(posts)$
+  <article>
+    <h1>$title$</h1>
+
+    $if(teaser)$
+      $teaser$
+    $endif$
+
+    <br>
+    <a href="$url$" class="read-more">
+      Read more <i class="fa fa-chevron-right"></i>
+    </a>
+
+  </article>
+$endfor$

@@ -1,0 +1,23 @@
+{
+  "name": "thibaud",
+  "authors": [
+    "Thibaud Dauce <thibaud@dauce.fr>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "http://www.thibaud-dauce.fr",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "KNACSS": "knacss#~4.3.4",
+    "font-awesome": "~4.4.0"
+  }
+}
