@@ -53,4 +53,4 @@ I often watch AlloCiné, a french website which provides information on French c
 
 ## Finally
 
-I didn't find the solution to activate the "MSE & WebM VP9" on the YouTube HTML5 page. It should be a problem with my Arch Linux or with my drivers. I don't know. If someone have the solution, please ping me on Twitter [@ThibaudDauce](https://twitter.com/ThibaudDauce).
+I didn't find the solution to activate the "MSE & WebM VP9" on the YouTube HTML5 page. It may be a problem with my Arch Linux or with my drivers. I don't know. If someone have the solution, please ping me on Twitter [\@ThibaudDauce](https://twitter.com/ThibaudDauce).
