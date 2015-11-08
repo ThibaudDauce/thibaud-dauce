@@ -6,7 +6,7 @@ Personal website with Hakyll, [explanations here](http://www.thibaud-dauce.fr/po
 
 ### Stack
 
-You need to install the `stack` build tool first. See https://github.com/commercialhaskell/stack for more information.
+You need to install the [`stack` build tool](https://github.com/commercialhaskell/stack) first. See [the official documentation](https://github.com/commercialhaskell/stack/blob/release/doc/install_and_upgrade.md) for installation instructions.
 
 On Arch Linux, just run:
 ```bash
@@ -62,4 +62,4 @@ Then run the web server with:
 stack exec thibaud watch
 ```
 
-This command will trigger a rebuild each time a file is changed. To rebuild the CSS after a change in a `.scss` file, you need to trigger a rebuild manually with `stack exec thibaud rebuild`. 
+This command will trigger a rebuild each time a file is changed. To rebuild the CSS after a change in a `.scss` file, you need to trigger a rebuild manually with `stack exec thibaud rebuild`.
