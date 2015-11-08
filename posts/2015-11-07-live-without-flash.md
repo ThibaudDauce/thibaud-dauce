@@ -2,7 +2,7 @@
 title: Live without Flash
 ---
 
-Adobe Flash is awful. There is a lot of bugs and security problems with this software. Today, HTML5 is a good alternative but it requires a bit of setup. Some website still have video players in Flash and it's impossible to watch without.
+Adobe Flash is awful. There are a lot of bugs and security problems with this software. Today, HTML5 is a good alternative but it requires a bit of setup. Some websites still have video players in Flash and it's impossible to watch without.
 
 What can we do?
 
@@ -16,7 +16,7 @@ Firefox is the best browser, not because its performances are better, but becaus
 
 How run HTML5 videos in Firefox? First, we need to check some configuration. YouTube has a perfect webpage for this task: [Youtube HTML5](https://www.youtube.com/html5).
 
-To enable all the possibilities of HTML5, you need to use the default HTML5 player. Then to be able to watch 480p and 1080p videos, there is a few steps.
+To enable all the possibilities of HTML5, you need to use the default HTML5 player. Then to be able to watch 480p and 1080p videos, there are a few steps.
 
 * [Media Source Extensions.](http://www.ghacks.net/2014/05/10/enable-media-source-extensions-firefox/) tldr; go to `about:config` and switch to true `media.mediasource.enabled`.
 * [MSE & H.264.](http://www.ghacks.net/2014/07/25/enable-mse-h2-64-support-youtube-firefox-right-now/) tldr; go to `about:config` and switch to true `media.fragmented-mp4.*` except `media.fragmented-mp4.use-blank-decoder`.
@@ -36,7 +36,7 @@ To install `youtube-dl`, visit [their website](https://rg3.github.io/youtube-dl/
 youtube-dl link-to-your-video
 ```
 
-You can also download YouTube playlists, pages, etc.. There is a lot of options like `--write-all-thumbnails` or `--write-subs`. Just check the man page, everything is explained.
+You can also download YouTube playlists, pages, etc… There are a lot of options like `--write-all-thumbnails` or `--write-subs`. Just check the man page, everything is explained.
 
 ### Livestreamer
 
