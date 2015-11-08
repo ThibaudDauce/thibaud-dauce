@@ -36,7 +36,7 @@ To install `youtube-dl`, visit [their website](https://rg3.github.io/youtube-dl/
 youtube-dl link-to-your-video
 ```
 
-You can also download YouTube playlists, pages, etc… There are a lot of options like `--write-all-thumbnails` or `--write-subs`. Just check the man page, everything is explained.
+You can also download YouTube playlists, pages, etc. There are a lot of options like `--write-all-thumbnails` or `--write-subs`. Just check the man page, everything is explained.
 
 ### Livestreamer
 
