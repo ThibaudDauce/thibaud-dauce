@@ -2,7 +2,7 @@
 title: Live without Flash
 ---
 
-Adobe Flash is awful. There are a lot of bugs and security problems with this software. Today, HTML5 is a good alternative but it requires a bit of setup. Some website still have video players in Flash and it's impossible to watch without.
+Adobe Flash is awful. There are a lot of bugs and security problems with this software. Today, HTML5 is a good alternative but it requires a bit of setup. Some websites still have video players in Flash and it's impossible to watch without.
 
 What can we do?
 
@@ -36,7 +36,7 @@ To install `youtube-dl`, visit [their website](https://rg3.github.io/youtube-dl/
 youtube-dl link-to-your-video
 ```
 
-You can also download YouTube playlists, pages, etc.. There are a lot of options like `--write-all-thumbnails` or `--write-subs`. Just check the man page, everything is explained.
+You can also download YouTube playlists, pages, etc… There are a lot of options like `--write-all-thumbnails` or `--write-subs`. Just check the man page, everything is explained.
 
 ### Livestreamer
 
