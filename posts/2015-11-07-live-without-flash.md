@@ -20,6 +20,7 @@ To enable all the possibilities of HTML5, you need to use the default HTML5 play
 
 * [Media Source Extensions.](http://www.ghacks.net/2014/05/10/enable-media-source-extensions-firefox/) tldr; go to `about:config` and switch to true `media.mediasource.enabled`.
 * [MSE & H.264.](http://www.ghacks.net/2014/07/25/enable-mse-h2-64-support-youtube-firefox-right-now/) tldr; go to `about:config` and switch to true `media.fragmented-mp4.*` except `media.fragmented-mp4.use-blank-decoder`.
+* [MSE & WebM VP9](https://www.youtube.com/watch?v=R4No4kv3TA8) tldr; go to `about:config` and switch to true `media.mediasource.webm.enabled`.
 
 With Arch Linux, I think you should install `gst-plugins-good` and `gst-libav` too.
 
@@ -51,6 +52,6 @@ I used a lot `livestreamer` with my old computer because VLC is way better than 
 
 I often watch AlloCiné, a french website which provides information on French cinema. They have a Flash video player and neither `youtube-dl` nor `livestreamer` support it. With the plugin Greasemonkey on Firefox, I use the script [AlloCine_Zap](http://userscripts-mirror.org/scripts/show/59373) to watch videos as HTML5 (and remove adds ^^).
 
-## Finally
 
-I didn't find the solution to activate the "MSE & WebM VP9" on the YouTube HTML5 page. It may be a problem with my Arch Linux or with my drivers. I don't know. If someone have the solution, please ping me on Twitter [\@ThibaudDauce](https://twitter.com/ThibaudDauce).
+----
+**Edit: thanks to Christophe Cluizel (Awesome guy! Go follow him [\@CCluizel](https://twitter.com/CCluizel) for some Scala, Spark and Machine Learning stuff), there's now a solution for "MSE & WebM VP9". It's not working on my computer but it may work for you. Thanks for his contribution.**
