@@ -51,3 +51,7 @@ I used a lot `livestreamer` with my old computer because VLC is way better than 
 ### Last trick
 
 I often watch AlloCiné, a french website which provides information on French cinema. They have a Flash video player and neither `youtube-dl` nor `livestreamer` support it. With the plugin Greasemonkey on Firefox, I use the script [AlloCine_Zap](http://userscripts-mirror.org/scripts/show/59373) to watch videos as HTML5 (and remove adds ^^).
+
+
+----
+**Edit: thanks to Christophe Cluizel (Awesome guy! Go follow him [\@CCluizel](https://twitter.com/CCluizel) for some Scala, Spark and Machine Learning stuff), there's now a solution for "MSE & WebM VP9". It's not working on my computer but it may work for you. Thanks for his contribution.**
