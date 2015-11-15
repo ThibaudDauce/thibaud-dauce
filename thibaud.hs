@@ -4,7 +4,6 @@ import           Data.Monoid (mappend)
 import           Control.Monad (liftM)
 import           Hakyll
 
-
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
@@ -65,13 +64,8 @@ main = hakyll $ do
 
     match "templates/*" $ compile templateCompiler
 
-    create ["feed.xml"] $ do
-        route idRoute
-        compile $ do
-            let feedCtx = postCtx `mappend` bodyField "description"
-            posts <- fmap (take 10) . recentFirst =<<
-                loadAllSnapshots "posts/*" "content"
-            renderRss myFeedConfiguration feedCtx posts
+    createFeed "feed.xml" renderRss
+    createFeed "atom.xml" renderAtom
 
 --------------------------------------------------------------------------------
 postCtx :: Context String
@@ -79,6 +73,25 @@ postCtx =
     dateField "date" "%B %e, %Y" `mappend`
     teaserField "teaser" "content" `mappend`
     defaultContext
+
+feedCtx :: Context String
+feedCtx =
+    postCtx `mappend`
+    bodyField "description"
+
+type RenderingFunction = FeedConfiguration
+           -> Context String
+           -> [Item String]
+           -> Compiler (Item String)
+
+createFeed :: Identifier -> RenderingFunction -> Rules ()
+createFeed name renderingFunction = create [name] $ do
+      route idRoute
+      compile $ do
+          posts <- fmap (take 10) . recentFirst =<<
+              loadAllSnapshots "posts/*" "content"
+          renderingFunction myFeedConfiguration feedCtx posts
+
 
 myFeedConfiguration :: FeedConfiguration
 myFeedConfiguration = FeedConfiguration
