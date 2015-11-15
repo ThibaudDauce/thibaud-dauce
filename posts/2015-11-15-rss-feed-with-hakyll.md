@@ -8,7 +8,7 @@ I don't want all these features, I just want the tweets of people I follow in ch
 
 <!--more-->
 
-![RSS, the perfect alternative to Twitter](/images/rss.jpg)
+![RSS, the perfect alternative to Twitter](/images/rss.png)
 
 # Add an RSS feed in Hakyll
 
@@ -58,4 +58,4 @@ To make my feeds work with most of the aggregators, I need to add two `link` to 
 
 I personally use [FreshRSS](http://freshrss.org/). It's a simple, self-hostable aggregator under the AGPL license. The installation is really simple and there is a lot of useful features (like keyboard shortcuts and integration with [Wallabag](https://www.wallabag.org/))
 
-![The clear interface of FreshRSS](/images/freshrss.png)
+![The clear interface of FreshRSS](/images/freshrss.jpg)
