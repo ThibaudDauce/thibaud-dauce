@@ -65,6 +65,13 @@ main = hakyll $ do
 
     match "templates/*" $ compile templateCompiler
 
+    create ["feed.xml"] $ do
+        route idRoute
+        compile $ do
+            let feedCtx = postCtx `mappend` bodyField "description"
+            posts <- fmap (take 10) . recentFirst =<<
+                loadAllSnapshots "posts/*" "content"
+            renderRss myFeedConfiguration feedCtx posts
 
 --------------------------------------------------------------------------------
 postCtx :: Context String
@@ -72,3 +79,12 @@ postCtx =
     dateField "date" "%B %e, %Y" `mappend`
     teaserField "teaser" "content" `mappend`
     defaultContext
+
+myFeedConfiguration :: FeedConfiguration
+myFeedConfiguration = FeedConfiguration
+    { feedTitle       = "Thibaud Dauce's blog"
+    , feedDescription = "All Thibaud Dauce's articles"
+    , feedAuthorName  = "Thibaud Dauce"
+    , feedAuthorEmail = "thibaud@dauce.fr"
+    , feedRoot        = "http://www.thibaud-dauce.fr"
+    }
