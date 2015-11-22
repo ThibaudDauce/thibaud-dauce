@@ -16,7 +16,7 @@ allStrings :: [String]
 allStrings = [ c : s | s <- "" : allStrings, c <- ['a'..'z'] ++ ['0'..'9'] ]
 ```
 
-`allStrings` is a list of strings defined as the concatenation of one character `c` in the list `['a'..'z'] ++ ['0'..'9']` and one string of `allStrings`. The definition is here recursive and we get a infinite list.
+`allStrings` is a list of strings defined as the concatenation of one character `c` in the list `['a'..'z'] ++ ['0'..'9']` and one string of `allStrings`. The definition is here recursive and we get an infinite list.
 
 ## Compute the SHA1 hash
 
