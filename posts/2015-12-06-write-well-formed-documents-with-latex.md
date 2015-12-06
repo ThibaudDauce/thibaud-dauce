@@ -6,7 +6,7 @@ title: Write well-formed documents with LaTeX
 
 <!--more-->
 
-![It's really hard to illustrate LaTeX, try to find out why by searching "latex" in Google image :-)](/images/no-image-available.jpg)
+![It's really hard to illustrate LaTeX, try to find out why by searching "latex" in Google image :-)](/images/no-image-available.png)
 
 ## LaTeX installation
 
