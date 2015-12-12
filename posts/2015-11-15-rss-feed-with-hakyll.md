@@ -47,7 +47,7 @@ createFeed "atom.xml" renderAtom
 
 ## The HTML part
 
-To make my feeds work with most of the aggregators, I need to add two `link` to my default template.
+To make my feeds work with most of the aggregators, I need to add two `links` to my default template.
 
 ```html
 <link rel="alternate" type="application/rss+xml" title="Thibaud Dauce's blog" href="./feed.xml">

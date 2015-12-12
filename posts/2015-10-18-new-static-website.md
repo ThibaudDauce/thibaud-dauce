@@ -4,7 +4,7 @@ title: Welcome to my new static website!
 
 I just rebuilt my website with Hakyll, a library for generating static sites. No major visual changes: the design remains almost the same except I'm now using the newest [KNACSS](http://knacss.com/) version and I dropped [Geomicons](http://geomicons.com/) for [Font awesome](http://fontawesome.io/). I also took advantage of this change to add a new blog to my website, I'll try to keep it updated weekly (even if we all know it's impossible ^^).
 
-Why switch from PHP and [Laravel](https://laravel.com) to juste HTML files? Why a static website generator?
+Why switch from PHP and [Laravel](https://laravel.com) to just HTML files? Why a static website generator?
 
 <!--more-->
 
@@ -22,7 +22,7 @@ But, if HTML files are so cool, why don't just use HTML files? Generators brings
 
 - Use of layouts or templates for your pages. Don't repeat yourself: don't copy / paste the `doctype` and the `header` for each post.
 - Create a dynamic index for all your posts (with a summary), an archive page and a RSS / Atom feed.
-- Write in [Markdown](https://daringfireball.net/projects/markdown/) instead of HTML, it's a little bit easier and it's always possible to add HTML tags in your posts for specific information.
+- Write in [Markdown](https://daringfireball.net/projects/markdown/) instead of HTML, it's a bit easier and it's always possible to add HTML tags in your posts for specific information.
 
 ## How is it working?
 
@@ -32,7 +32,7 @@ I don't think Hakyll is the best one, but I'm currently in functional programmin
 
 After developing the main Haskell file, I just run `stack build` once to compile my program. Then, to write this blog post, I run `stack exec thibaud watch`, open `http://localhost:8000` and start writing my post with [my editor](https://atom.io). Each time I save the file, a rebuild is triggered, and I can see the changes directly in my browser. Really efficient workflow!
 
-I write Markdown compiled in HTML thanks to the great [Pandoc](http://pandoc.org/) library. I use a HTML comment `<!--more-->` to create a « teaser » field. And I also can use HTML to add font awesome character for example like `<i class="fa fa-smile-o"></i>`. All of the code is on [Github](https://github.com/ThibaudDauce/thibaud-dauce), and I'm open to contributions <i class="fa fa-smile-o"></i>.
+I write Markdown compiled in HTML thanks to the great [Pandoc](http://pandoc.org/) library. I use an HTML comment `<!--more-->` to create a « teaser » field. And I also can use HTML to add font awesome character for example like `<i class="fa fa-smile-o"></i>`. All of the code is on [Github](https://github.com/ThibaudDauce/thibaud-dauce), and I'm open to contributions <i class="fa fa-smile-o"></i>.
 
 ## What's remaining to do?
 

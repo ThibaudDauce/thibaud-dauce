@@ -14,7 +14,7 @@ What can we do?
 
 Firefox is the best browser, not because its performances are better, but because Gecko is an alternative to Webkit (the layout engine software component for rendering web pages in Chrome, Chromium, Safari and Opera). If we don't want Google to be the new Internet Explorer, we need to fight for diversity in rendering engines.
 
-How run HTML5 videos in Firefox? First, we need to check some configuration. YouTube has a perfect webpage for this task: [Youtube HTML5](https://www.youtube.com/html5).
+How run HTML5 videos in Firefox? First, we need to check some configuration. YouTube has a perfect web page for this task: [Youtube HTML5](https://www.youtube.com/html5).
 
 To enable all the possibilities of HTML5, you need to use the default HTML5 player. Then to be able to watch 480p and 1080p videos, there are a few steps.
 
@@ -37,7 +37,7 @@ To install `youtube-dl`, visit [their website](https://rg3.github.io/youtube-dl/
 youtube-dl link-to-your-video
 ```
 
-You can also download YouTube playlists, pages, etc. There are a lot of options like `--write-all-thumbnails` or `--write-subs`. Just check the man page, everything is explained.
+You can also download YouTube play lists, pages, etc. There are a lot of options like `--write-all-thumbnails` or `--write-subs`. Just check the man page, everything is explained.
 
 ### Livestreamer
 

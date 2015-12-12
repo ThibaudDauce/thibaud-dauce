@@ -10,7 +10,7 @@ I'm relatively new in functional programming but I really enjoy trying to code s
 
 ## Generate the list of all the possible strings
 
-I found [a Stackoverflow answer](http://stackoverflow.com/questions/9542313/how-to-generate-a-list-of-all-possible-strings-from-shortest-to-longest) where someone explain how to use the laziness of Haskell to build an infinite list of all the possible strings. The one line function is :
+I found [a Stack Overflow answer](http://stackoverflow.com/questions/9542313/how-to-generate-a-list-of-all-possible-strings-from-shortest-to-longest) where someone explains how to use the laziness of Haskell to build an infinite list of all the possible strings. The one line function is :
 ```haskell
 allStrings :: [String]
 allStrings = [ c : s | s <- "" : allStrings, c <- ['a'..'z'] ++ ['0'..'9'] ]
@@ -40,7 +40,7 @@ checkPassword :: Digest SHA1 -> String -> Bool
 checkPassword hash string = (sha1 string) == hash
 ```
 
-The function take the hash we're looking for and a string, compute the SHA1 of the string and compare the two results.
+The function takes the hash we're looking for and a string, compute the SHA1 of the string and compare the two results.
 
 ## Find the password
 
