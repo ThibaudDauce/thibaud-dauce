@@ -1,5 +1,6 @@
 ---
 title: UX fails: moving elements
+video: /videos/ux-fails-twitter.ogv
 ---
 
 What's UX? UX stands for User Experience. It refers to "a person's emotions and attitudes about using a particular product, system or service" according to [Wikipedia](https://en.wikipedia.org/wiki/User_experience). I'm starting today a series of blog posts about UX and some fails I ran into on software I use every day.
@@ -35,7 +36,7 @@ Do you know *Instant answers* from Google? DuckDuckGo has that too. But instead 
 The *Starting at €5.99 / month* text looks really like a button. But when I want to click on it, it just disappears, replaced quickly by a clickable table of options. Check the video below.  
 
 <video controls src="/videos/ux-fails-online.ogv">
-Your browser don't support HTML5 videos, go check <a href="/posts/2015-11-07-live-without-flash.html">my blog post</a>
+  Your browser don't support HTML5 videos, go check <a href="/posts/2015-11-07-live-without-flash.html">my blog post</a>
 </video>
 
 ## Conclusion

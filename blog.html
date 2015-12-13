@@ -1,10 +1,24 @@
 $for(posts)$
-  <article>
+  <article class="teaser">
     <h1>$title$</h1>
 
-    $if(teaser)$
-      $teaser$
-    $endif$
+    <div class="grid-3-1 grid-3-small-1">
+      $if(teaser)$
+        <div>
+          $teaser$
+        </div>
+      $endif$
+
+      <aside>
+        $if(image)$
+          <img src="$image$" alt="$title$" class="fr"/>
+        $else$
+            $if(video)$
+              <video controls src="$video$"></video>
+            $endif$
+        $endif$
+      </aside>
+    </div>
 
     <br>
     <a href="$url$" class="read-more">
