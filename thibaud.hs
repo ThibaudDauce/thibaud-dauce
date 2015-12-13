@@ -15,6 +15,10 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
+    match "videos/*" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     match "css/font-awesome/fonts/*" $ do
         route   idRoute
         compile copyFileCompiler
