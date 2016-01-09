@@ -26,7 +26,7 @@ main = hakyll $ do
     match "css/thibaud.scss" $ do
         route   $ setExtension "css"
         compile $ getResourceFilePath
-            >>= \fp -> unixFilter "sass" ["--scss", fp] ""
+            >>= \fp -> unixFilter "sassc" [fp] ""
             >>= makeItem
             >>= return . fmap compressCss
 

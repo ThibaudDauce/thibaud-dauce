@@ -15,11 +15,11 @@ yaourt -S stack-bin
 
 ### Sass
 
-I'm using [SASS](http://sass-lang.com/) to compile my CSS. For installation instruction, go to http://sass-lang.com/install.
+I'm using [libsass](http://sass-lang.com/libsass) to compile my CSS. For installation instruction, go to https://github.com/sass/libsass.
 
 On Arch Linux, just run:
 ```bash
-yaourt -S ruby-sass
+pacman -S sassc
 ```
 
 ## Installation

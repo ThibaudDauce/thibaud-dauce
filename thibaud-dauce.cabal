@@ -6,6 +6,6 @@ cabal-version:      >= 1.10
 executable thibaud
   main-is:          thibaud.hs
   build-depends:    base == 4.*
-                  , hakyll == 4.6.*
+                  , hakyll
   ghc-options:      -threaded
   default-language: Haskell2010
