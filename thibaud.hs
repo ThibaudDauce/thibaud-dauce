@@ -103,5 +103,5 @@ myFeedConfiguration = FeedConfiguration
     , feedDescription = "All Thibaud Dauce's articles"
     , feedAuthorName  = "Thibaud Dauce"
     , feedAuthorEmail = "thibaud@dauce.fr"
-    , feedRoot        = "http://www.thibaud-dauce.fr"
+    , feedRoot        = "https://thibaud.dauce.fr"
     }

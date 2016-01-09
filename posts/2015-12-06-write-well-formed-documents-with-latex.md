@@ -45,7 +45,7 @@ Who never run into this problem of unused abbreviation or bibliography? LaTeX ca
 @Misc{documents-with-latex,
   author = {Thibaud Dauce},
   title = {Write well-formed documents with LaTeX},
-  howpublished = {\url{http://www.thibaud-dauce.fr/posts/2015-12-06-write-well-formed-documents-with-latex.html}},
+  howpublished = {\url{https://thibaud.dauce.fr/posts/2015-12-06-write-well-formed-documents-with-latex.html}},
   month = {December},
   year = {2015},
 }

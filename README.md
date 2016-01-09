@@ -1,6 +1,6 @@
 # Thibaud Dauce
 
-This is [my personal website](http://www.thibaud-dauce.fr) with [Hakyll](http://jaspervdj.be/hakyll/), all the explanations are [in my blog post](http://www.thibaud-dauce.fr/posts/2015-10-18-new-static-website.html).
+This is [my personal website](https://thibaud.dauce.fr) with [Hakyll](http://jaspervdj.be/hakyll/), all the explanations are [in my blog post](https://thibaud.dauce.fr/posts/2015-10-18-new-static-website.html).
 
 ## Requirements
 
