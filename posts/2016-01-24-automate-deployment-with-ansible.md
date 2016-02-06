@@ -17,7 +17,7 @@ In fact, as soon as you start having a documentation explaining how to create an
 
 ## Why I like Ansible
 
-Ansible is state-driven, it means that everything in your scripts will be link to state (if you do your job correctly). For example, instead of saying: "I want to install texlive-full", you will say: "I want the package texlive-full installed". It changes everything, this feature allows you to run your scripts multiple times without to worry about bad changes. The first time Ansible will check if texlive-full is installed and will install it. Then, the next times, it will show you that everything is already good to go. Moreover, it's really fast to run.
+Ansible is state-driven, it means that everything in your scripts will be link to state (if you do your job correctly). For example, instead of saying: "I want to install texlive-full", you will say: "I want the package texlive-full to be installed". It changes everything, this feature allows you to run your scripts multiple times without to worry about bad changes. The first time Ansible will check if texlive-full is installed and will install it if it's not. Then, the next times, it will show you that everything is already good to go. Moreover, it's really fast to run.
 
 ![latex-full is already installed, two "ok"s, no "changed"](/images/ansible-ok.jpg)
 
