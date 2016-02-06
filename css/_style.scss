@@ -128,7 +128,7 @@ nav {
 
 				img, video {
 					margin: 0;
-					width: 100%;
+					max-width: 100%;
 				}
 			}
 		}
@@ -158,13 +158,29 @@ nav {
 			margin: 20px auto 20px auto;
 		}
 
-		p {
+		ul, p {
 			-moz-hyphens: auto;
 			-ms-hyphens: auto;
 			-webkit-hyphens: auto;
 			hyphens: auto;
 
 			text-align: justify;
+
+			margin-top: 3rem;
+
+			code {
+				font-size: 1.6rem;
+				color: #e74c3c;
+			}
+		}
+
+		ul, p, .sourceCode {
+			font-size: 2rem;
+		}
+
+		.sourceCode {
+			margin-top: 15px;
+			margin-bottom: 25px;
 		}
 
 		footer {
