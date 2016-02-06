@@ -39,7 +39,7 @@ In this example, I use the "user" Core Module and the "authorized_key" Core Modu
 
 ![thibaud is using bash for the staging server, one "ok", one "changed"](/images/ansible-changed.jpg)
 
-Last thing important with Ansible, it's only text so you can easily use Git to keep version control. We use a lot Proxmox and templates for containers and it's hard to keep track of the changes for several hundreds Mo images. With Ansible, everything can be saved within a few ko.
+Last thing important with Ansible, it's only text so you can easily use Git to keep version control. We use a lot Proxmox and templates for containers and it's hard to keep track of the changes for several hundreds MBs images. With Ansible, everything can be saved within a few kBs.
 
 ## What I dislike with Ansible
 
