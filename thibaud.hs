@@ -23,7 +23,11 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "css/thibaud.scss" $ do
+    match "fonts/**" $ do
+        route   idRoute
+        compile copyFileCompiler
+
+    match "sass/app.scss" $ do
         route   $ setExtension "css"
         compile $ getResourceFilePath
             >>= \fp -> unixFilter "sassc" [fp] ""
