@@ -13,6 +13,8 @@ Create a title page with LaTeX could scare you but I realized that with the awes
 
 ## White spaces!
 
+![An ugly compact documents with a lot of text](/images/latex-compact.jpg)
+
 I don't like reading documents with a lot of text and no spaces. By default, paragraphs in LaTeX don't have margins, so I've got into the habit of adding `\\` after every paragraph to add a new line. I didn't know but this practice was the reason of all my LaTeX warning, complaining about *Underfull \\hbox (badness 10000) in paragraph at lines 11--51*. I knew it wasn't the best solution but I didn't take the time to look deeper.
 
 After just a few searches, I found the solution. And it's really straight forward, just add in your main file:
@@ -21,6 +23,8 @@ After just a few searches, I found the solution. And it's really straight forwar
 ```
 
 The main drawback of this solution is that the table of content is using paragraph to print the titles. I ended up with big skip after every line in my table of content. For my use case it was really cool and the result is in fact nicer (because I don't have a lot of chapters and I think it's clearer) but for the majority, it's gonna be awful. I'm sorry I don't have a solution right now but as soon as I need to write another document, I will check a solution for this problem.
+
+![A document with a lot of text but more white spaces. Better!](/images/latex-blank.jpg)
 
 ## Automatic compilation work flow
 
