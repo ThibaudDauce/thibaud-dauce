@@ -1,5 +1,6 @@
 ---
 title: Write well-formed documents with LaTeX
+image: /images/latex.png
 ---
 
 [LaTeX](http://www.latex-project.org/) is an awesome tool. It allows writing well-formed documents with no efforts. You can manage your references, your bibliography, your acronyms and a lot more.
