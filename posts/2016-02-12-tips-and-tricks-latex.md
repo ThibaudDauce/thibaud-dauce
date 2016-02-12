@@ -13,7 +13,7 @@ Create a title page with LaTeX could scare you but I realized that with the awes
 
 ## White spaces!
 
-![An ugly compact documents with a lot of text](/images/latex-compact.jpg)
+![An ugly and compact document with a lot of text](/images/latex-compact.jpg)
 
 I don't like reading documents with a lot of text and no spaces. By default, paragraphs in LaTeX don't have margins, so I've got into the habit of adding `\\` after every paragraph to add a new line. I didn't know but this practice was the reason of all my LaTeX warning, complaining about *Underfull \\hbox (badness 10000) in paragraph at lines 11--51*. I knew it wasn't the best solution but I didn't take the time to look deeper.
 
