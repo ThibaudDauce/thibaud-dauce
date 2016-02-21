@@ -10,7 +10,7 @@ You need to install the [`stack` build tool](https://github.com/commercialhaskel
 
 On Arch Linux, just run:
 ```bash
-yaourt -S stack-bin
+pacman -S stack
 ```
 
 ### Sass
