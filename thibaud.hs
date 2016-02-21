@@ -1,7 +1,7 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
-import           Data.Monoid (mappend)
 import           Control.Monad (liftM)
+import           Data.Monoid   (mappend)
 import           Hakyll
 
 --------------------------------------------------------------------------------
