@@ -27,6 +27,10 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
+    match "talks/**" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     match "sass/app.scss" $ do
         route   $ setExtension "css"
         compile $ getResourceFilePath
@@ -62,6 +66,20 @@ main = hakyll $ do
             let indexCtx =
                     listField "posts" postCtx (return posts) `mappend`
                     constField "title" "Blog"                `mappend`
+                    defaultContext
+
+            getResourceBody
+                >>= applyAsTemplate indexCtx
+                >>= loadAndApplyTemplate "templates/default.html" indexCtx
+                >>= relativizeUrls
+            >>= relativizeUrls
+
+
+    match "talks.html" $ do
+        route idRoute
+        compile $ do
+            let indexCtx =
+                    constField "title" "Talks"                `mappend`
                     defaultContext
 
             getResourceBody

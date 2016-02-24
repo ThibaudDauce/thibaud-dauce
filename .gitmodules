@@ -1,0 +1,6 @@
+[submodule "talks/jug-event-store"]
+	path = talks/jug-event-store
+	url = git@github.com:ThibaudDauce/jug-event-store.git
+[submodule "talks/jug-internet"]
+	path = talks/jug-internet
+	url = git@github.com:ThibaudDauce/jug-internet.git
