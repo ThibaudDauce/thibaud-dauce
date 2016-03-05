@@ -127,4 +127,4 @@ apt-get upgrade
 <h2 style="text-align: center;">IPv6, HTTPS & HTTP/2.0</h2>
 <h2 style="text-align: center;">Welcome 2016!</h2>
 
-Thanks [Aeris](https://twitter.com/aeris22) for your help, check [his french blog post](https://blog.imirhil.fr/2015/09/02/cryptcheck-verifiez-implementations-tls.html) about SSL security. Or [this one](https://raymii.org/s/tutorials/Strong_SSL_Security_On_nginx.html) from Remy van Elst in English.
+Thanks [Aeris](https://twitter.com/aeris22) for your help, check [his french blog post](https://blog.imirhil.fr/2015/09/02/cryptcheck-verifiez-implementations-tls.html) about SSL security.
