@@ -3,7 +3,7 @@ title: Welcome 2016: IPv6, HTTPS & HTTP/2.0
 image: /images/www.svg
 ---
 
-It's been a few weeks since a set a AAAA record for my domain name and allow IPv6 to visit my website. Same with SSL and Let's Encrypt. Today I switch from Apache 2 to Nginx and enable HTTP/2.0 on my server.
+It's been a few weeks since a set a AAAA record for my domain name and allow IPv6 to visit my website. Same with SSL and Let's Encrypt. Today I switched from Apache 2 to Nginx and enabled HTTP/2.0 on my server.
 
 <!--more-->
 
