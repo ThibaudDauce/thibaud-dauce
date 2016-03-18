@@ -81,6 +81,15 @@ nav {
 	background-color: $blanc;
 	padding: 15px $padding;
 	font-weight: 300;
+
+  p {
+    font-size: $h2-size;
+    font-weight: 300;
+    text-align: center;
+
+    padding: 0 0 1rem 0;
+    border-bottom: 1px solid $flash;
+  }
 }
 
 #content {
@@ -106,15 +115,6 @@ nav {
 		margin-bottom: 20px;
 		padding: 15px $padding;
 		font-weight: 300;
-
-		nav {
-			font-size: $h2-size;
-			font-weight: 300;
-			text-align: center;
-
-			padding: 0 0 1rem 0;
-			border-bottom: 1px solid $flash;
-		}
 
 		&.teaser {
 			aside {
