@@ -202,3 +202,18 @@ nav {
 		}
 	}
 }
+
+.alert {
+  display: none;
+  width: 100%;
+  margin: 5px auto 30px;
+  padding: 20px;
+  color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+
+  a {
+    color: #a94442;
+    font-weight: 600;
+  }
+}
