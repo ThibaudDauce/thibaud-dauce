@@ -17,7 +17,7 @@ Because, to quote [the Hakyll website](http://jaspervdj.be/hakyll/):
 
 ![A static, fast, secure and easy to deploy Buckingham's guard](/images/guard.jpg)
 
-I like the idea of using only an Apache web server (yeah, no Nginx for me, I'm old school <i class="fa fa-smile-o"></i>) and deploy my application easily with `scp`. And, of course, no security breach, it's not a Wordpress!
+I like the idea of using only an Apache web server (~~yeah, no Nginx for me, I'm old school~~ not anymore, only fools never change their minds <i class="fa fa-smile-o"></i>) and deploy my application easily with  ~~`scp`~~ `rsync`. And, of course, no security breach, it's not a Wordpress!
 
 But, if HTML files are so cool, why don't just use HTML files? Generators brings a lot of possibilities for a blog.
 
