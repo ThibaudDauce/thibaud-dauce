@@ -1,6 +1,7 @@
 ---
 title: Maybe it's now an option to avoid NullPointerException?
 image: /images/schroedinger.jpg
+thumbnail: /images/thumbnail-schroedinger.jpg
 ---
 
 `NullPointerException` is an obvious runtime problem in most Java applications. But it's not limited to Java, in PHP for example we could get a "Trying to get property of non-object". But today, there's a compilation alternative to this runtime problem.

@@ -1,6 +1,7 @@
 ---
 title: Tips & Tricks with LaTeX
 image: /images/latex.png
+thumbnail: /images/thumbnail-latex.png
 ---
 
 In [my previous blog post](/posts/2015-12-06-write-well-formed-documents-with-latex.html), I talked about how LaTeX is a fantastic tool and I concluded with some generators that could be interesting. I had to write some documents with LaTeX and I wanted to improve my work flow. I will share with you some tips & tricks I discovered.

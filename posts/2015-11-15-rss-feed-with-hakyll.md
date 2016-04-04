@@ -1,6 +1,7 @@
 ---
 title: An RSS Feed with Hakyll
 image: /images/rss.png
+thumbnail: /images/thumbnail-rss.png
 ---
 
 Twitter is a really cool social network. I daily use it and I discover a lot of new stuff with it. Unfortunately, it's a company, and they need to earn some money. More and more often, Twitter shows me unwanted content like *tweets you could like*, *accounts to follow* or *what happens when you're away*.

@@ -1,8 +1,11 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
+import           Control.Applicative (empty, (<$>))
 import           Control.Monad (liftM)
 import           Data.Monoid   (mappend)
 import           Hakyll
+import           System.FilePath
+import           Data.List
 
 --------------------------------------------------------------------------------
 main :: IO ()
@@ -10,6 +13,8 @@ main = hakyll $ do
     match "images/*" $ do
         route   idRoute
         compile copyFileCompiler
+
+    imageProcessor "images/*" [ ("thumbnail" , Just 310) ]
 
     match "files/*" $ do
         route   idRoute
@@ -131,3 +136,44 @@ myFeedConfiguration = FeedConfiguration
     , feedAuthorEmail = "thibaud@dauce.fr"
     , feedRoot        = "https://thibaud.dauce.fr"
     }
+
+
+--------------------------------------------------------------------------------
+-- Image processing
+--------------------------------------------------------------------------------
+
+type ImageProcessing = [(String, Maybe Int)]
+
+-- | Process image files according to a specification.
+--
+-- The 'Rules' and 'Context'  returned can be used to output and
+imageProcessor :: Pattern -- ^ Images to process.
+               -> ImageProcessing -- ^ Processing instructions.
+               -> Rules ()
+imageProcessor pat procs = imageRules pat procs
+
+-- | Generate 'Rules' to process images.
+imageRules :: Pattern -- ^ Pattern to identify images.
+           -> ImageProcessing -- ^ Versions to generate.
+           -> Rules ()
+imageRules pat procs = match pat $ do
+  sequence_ $ map processImage procs
+  where
+    imageRoute name ident = let path = toFilePath ident
+                                base = takeFileName path
+                                name' = name ++ "-" ++ base
+                            in replaceFileName path name'
+    -- Process an image with no instructions.
+    processImage (name, Nothing) = version name $ do
+        route $ customRoute (imageRoute name)
+        compile $ copyFileCompiler
+    -- Process with scale and crop instructions.
+    processImage (name, Just width) = version name $ do
+        route $ customRoute (imageRoute name)
+        let cmd = "convert"
+        let args = [ "-"
+                   , "-resize"
+                   , show width ++ "x"
+                   , "-"
+                   ]
+        compile $ getResourceLBS >>= withItemBody (unixFilterLBS cmd args)

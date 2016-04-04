@@ -1,6 +1,7 @@
 ---
 title: Welcome to my new static website!
 image: /images/guard.jpg
+thumbnail: /images/thumbnail-guard.jpg
 ---
 
 I just rebuilt my website with Hakyll, a library for generating static sites. No major visual changes: the design remains almost the same except I'm now using the newest [KNACSS](http://knacss.com/) version and I dropped [Geomicons](http://geomicons.com/) for [Font awesome](http://fontawesome.io/). I also took advantage of this change to add a new blog to my website, I'll try to keep it updated weekly (even if we all know it's impossible ^^).

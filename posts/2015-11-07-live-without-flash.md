@@ -1,6 +1,7 @@
 ---
 title: Live without Flash
 image: /images/html5.png
+thumbnail: /images/thumbnail-html5.png
 ---
 
 Adobe Flash is awful. There are a lot of bugs and security problems with this software. Today, HTML5 is a good alternative but it requires a bit of setup. Some websites still have video players in Flash and it's impossible to watch without.

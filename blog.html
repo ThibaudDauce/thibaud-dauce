@@ -16,11 +16,15 @@ $for(posts)$
       $endif$
 
       <aside>
-        $if(image)$
-          <img src="$image$" alt="$title$" class="fr"/>
+        $if(thumbnail)$
+          <img src="$thumbnail$" alt="$title$" class="fr"/>
         $else$
-            $if(video)$
-              <video controls src="$video$"></video>
+            $if(image)$
+              <img src="$image$" alt="$title$" class="fr"/>
+            $else$
+                $if(video)$
+                  <video controls src="$video$"></video>
+                $endif$
             $endif$
         $endif$
       </aside>

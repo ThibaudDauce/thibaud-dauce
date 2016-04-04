@@ -1,6 +1,7 @@
 ---
 title: Automate deployment with Ansible
 image: /images/ansible.png
+thumbnail: /images/thumbnail-ansible.png
 ---
 
 It's been a while since I wrote my last blog post. Today, I want to share with you my small experience with [Ansible](http://www.ansible.com/). Ansible is an open source project for application deployment. I heard of it last year but never took the time to dig in. Last week, I gave it a new try for [Quantic Telecom](https://www.quantic-telecom.net) to deploy new containers easily and I really enjoy it!
