@@ -1,5 +1,5 @@
 ---
-title: Welcome 2016: IPv6, HTTPS & HTTP/2.0
+title: "Welcome 2016: IPv6, HTTPS & HTTP/2.0"
 image: /images/www.svg
 thumbnail: /images/thumbnail-www.svg
 ---

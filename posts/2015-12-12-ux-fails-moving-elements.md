@@ -1,5 +1,5 @@
 ---
-title: UX fails: moving elements
+title: "UX fails: moving elements"
 video: /videos/ux-fails-twitter.ogv
 ---
 
