@@ -2,6 +2,8 @@ body > header {
   height: $height-header;
 
   background-image: url('/images/header.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
 
   #presentation {
 
