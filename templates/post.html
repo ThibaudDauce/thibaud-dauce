@@ -2,10 +2,18 @@
     <a href="/blog.html" class="read-more">
       <i class="fa fa-chevron-left"></i> Back to the index
     </a>
+
 </nav>
 
 <article class="post">
-  <h1>$title$</h1>
+  <h1>
+      $title$
+  </h1>
+  $if(code)$
+      <a href="$code$">
+        <i class="fa fa-gitlab"></i> Source code available on Gitlab
+      </a>
+  $endif$
 
   $body$
 </article>
