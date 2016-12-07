@@ -172,8 +172,16 @@ imageRules pat procs = match pat $ do
         route $ customRoute (imageRoute name)
         let cmd = "convert"
         let args = [ "-"
+                   , "-background"
+                   , "#F6F8F9"
+                   , "-transparent"
+                   , "white"
+                   , "-gravity"
+                   , "center"
                    , "-resize"
-                   , show width ++ "x"
+                   , show width ++ "x" ++ show width
+                   , "-extent"
+                   , show width ++ "x" ++ show width
                    , "-"
                    ]
         compile $ getResourceLBS >>= withItemBody (unixFilterLBS cmd args)

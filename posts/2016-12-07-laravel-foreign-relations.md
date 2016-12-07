@@ -3,9 +3,10 @@ title: "Laravel Foreign Relations"
 image: /images/stripe.png
 thumbnail: /images/stripe.png
 code: https://framagit.org/ThibaudDauce/laravel-foreign-relations
+description: In this article, I'll create a proof of concept using Laravel's Eloquent relations to fetch a foreign data source as Stripe.
 ---
 
-The Laravel community is a huge fan of [Stripe](https://stripe.com). As Laravel, Stripe provides a great API to interact with the product. In this article, I'll try to create a proof of concept using Laravel's Eloquent relations with foreign data source as Stripe. The same idea could be applied to other foreign data providers.
+The Laravel community is a huge fan of [Stripe](https://stripe.com). As Laravel, Stripe provides a great API to interact with the product. In this article, I'll create a proof of concept using Laravel's Eloquent relations to fetch a foreign data source as Stripe. The same idea could be applied to other foreign data providers.
 
 <!--more-->
 
