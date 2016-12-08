@@ -3,7 +3,7 @@ title: Réaliser une application Laravel testée qui communique avec une base de
 image: /images/tp-live-laravel/testing.jpg
 thumbnail: /images/tp-live-laravel/thumbnail-testing.jpg
 video: https://openclassrooms.com/p/tp-live-premium
-video_label: Voir la vidéo (abonnés Premium d'OpenClassrooms uniquement)
+video_label: Voir la vidéo (abonnés d'OpenClassrooms<span class="is-hidden-mobile"> uniquement</span>)
 ---
 
 Réaliser une application Laravel testée qui communique avec une base de données

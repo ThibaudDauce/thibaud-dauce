@@ -3,7 +3,7 @@ title: Vues et contrôleurs avec Laravel
 image: /images/tp-live-laravel/todoapp.jpg
 thumbnail: /images/tp-live-laravel/thumbnail-todoapp.jpg
 video: https://openclassrooms.com/p/tp-live-premium
-video_label: Voir la vidéo (abonnés Premium d'OpenClassrooms uniquement)
+video_label: Voir la vidéo (abonnés d'OpenClassrooms<span class="is-hidden-mobile"> uniquement</span>)
 ---
 
 TP Live d'une heure pour les élèves d'OpenClassrooms le 30 mars 2016 sur Hangouts On Air.

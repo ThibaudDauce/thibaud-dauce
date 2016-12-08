@@ -3,7 +3,7 @@ title: Prise en main de Laravel
 image: /images/tp-live-laravel/prise-en-main.jpg
 thumbnail: /images/tp-live-laravel/thumbnail-prise-en-main.jpg
 video: https://openclassrooms.com/p/tp-live-premium
-video_label: Voir la vidéo (abonnés Premium d'OpenClassrooms uniquement)
+video_label: Voir la vidéo (abonnés d'OpenClassrooms<span class="is-hidden-mobile"> uniquement</span>)
 ---
 
 TP Live d'une heure pour les élèves d'OpenClassrooms le 2 mars 2016 sur Hangouts On Air.
