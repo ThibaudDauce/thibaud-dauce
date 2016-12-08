@@ -3,3 +3,4 @@ _cache/
 css/_cache/
 .sass-cache/
 .stack-work/
+node_modules/

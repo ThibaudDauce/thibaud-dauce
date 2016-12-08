@@ -8,5 +8,6 @@ executable thibaud
   build-depends:    base == 4.*
                   , hakyll
                   , filepath
+                  , time
   ghc-options:      -threaded
   default-language: Haskell2010

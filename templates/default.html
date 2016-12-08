@@ -1,15 +1,15 @@
 <!doctype html>
 <html lang="en">
 <head>
-	<meta name="viewport" content="initial-scale=1.0">
-	<meta charset="UTF-8">
-	<meta name="description" content="Hey! I'm Thibaud Dauce, technology nerd and dreamer of adventure." />
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="description" content="Hey! I'm Thibaud Dauce, technology nerd and dreamer of adventure." />
 
-	<title>$title$ — Thibaud Dauce</title>
-	<link rel="alternate" type="application/rss+xml" title="Thibaud Dauce's blog" href="/feed.xml">
-	<link rel="alternate" type="application/atom+xml" title="Thibaud Dauce's blog" href="/atom.xml">
-	<link rel="shortcut icon" href="/images/favicon.png">
-	<link rel="stylesheet" href="/sass/app.css">
+    <title>$title$ — Thibaud Dauce</title>
+    <link rel="alternate" type="application/rss+xml" title="Thibaud Dauce's blog" href="/feed.xml">
+    <link rel="alternate" type="application/atom+xml" title="Thibaud Dauce's blog" href="/atom.xml">
+    <link rel="shortcut icon" href="/images/favicon.png">
+    <link rel="stylesheet" href="/sass/app.css">
 
     <meta property="og:title" content="$title$ — Thibaud Dauce">
     <meta property="og:description" content="$if(description)$ $description$ $else$ Hey! I'm Thibaud Dauce, technology nerd and dreamer of adventure. $endif$">
@@ -20,47 +20,106 @@
     <meta name="twitter:site" content="@ThibaudDauce" />
 </head>
 <body id="top">
-	<header>
-		<div id="presentation">
-			<div id="cercle">
-				<div id="image">
-					<img src="/images/photo.png" alt="Photo" id="photo">
-				</div>
-				<img src="/images/droite.png" alt="Main gauche" id="gauche" class="main">
-				<img src="/images/gauche.png" alt="Main droite" id="droite" class="main">
-			</div>
-			<div id="catchphrase"><p>Hey! I'm Thibaud, technology nerd and dreamer of adventure.</p></div>
-		</div>
-	</header>
+    <header class="hero">
+        <nav class="nav">
+            <div class="nav-center">
+                <a class="nav-item $if(home)$ is-active $endif$" href="/">
+                    About
+                </a>
+                <a class="nav-item$if(blog)$ is-active $endif$" href="/blog.html">
+                    Posts
+                </a>
+                <a class="nav-item$if(talks)$ is-active $endif$" href="/talks.html">
+                    Talks
+                </a>
+            </div>
+        </nav>
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title is-2 has-icon">
+                    $if(home)$
+                        Hey! I'm Thibaud!
+                    $endif$
+                    $if(blog)$
+                        $if(post)$
+                            <a href="/blog.html" class="is-icon">
+                                $partial("icons/arrow-thin-left.html")$
+                            </a>
+                            <span>
+                                $title$
+                            </span>
+                        $else$
+                            Welcome to my blog!
+                        $endif$
+                    $endif$
+                    $if(talks)$
+                        J'aime bien discuter ! (in French for now)
+                    $endif$
+                </h1>
+                <h2 class="subtitle is-5">
+                    $if(home)$
+                        Find out what interests me in <a href="/blog.html">my blog</a> and with <a href="/talks.html">my talks</a>
+                    $endif$
+                    $if(blog)$
+                        Go to <a href="/">the homepage</a> or look at <a href="/talks.html">my talks</a>
+                    $endif$
+                    $if(talks)$
+                        Revenir <a href="/">à la page d'accueil</a> ou lire <a href="/blog.html">mon blog</a>
+                    $endif$
+                </h2>
+                <div class="notification is-warning" id="alert-adblocker">
+                    It seems that you do not use an AdBlocker, I think you should! Ads are bad for our brains and the web doesn't need them. You can download uBlock <a href="https://github.com/gorhill/uBlock">here</a>.
+                </div>
+                $if(talks)$
+                <div class="notification content">
+                    <p>
+                        N'hésitez pas à me contacter si vous cherchez des personnes pour animer des conférences, des débats ou <a href="https://www.formations-laravel.fr">des formations</a> autour :
+                        <ul>
+                            <li>du développement web (PHP, Laravel mais aussi les bonnes pratiques) ;</li>
+                            <li>de la programmation orientée objet ou fonctionnelle ;</li>
+                            <li>des bases de données SQL ou NoSQL.</li>
+                        </ul>
+                    </p>
+                </div>
+                $endif$
+                $if(code)$
+                <aside>
+                    <a href="$code$" class="button is-primary">
+                        <span class="icon">
+                            $partial("icons/code.html")$
+                        </span>
+                        <span>
+                            Source code available on Git
+                        </span>
+                    </a>
+                </aside>
+                $endif$
+            </div>
+        </div>
+    </header>
 
-	<section id="content">
-    <div class="alert" id="alert-adblocker">
-      It seems that you do not use an AdBlocker, I think you should! Ads are bad for our brains and the web doesn't need them. You can download uBlock <a href="https://github.com/gorhill/uBlock">here</a>.
-    </div>
-
-		$body$
-
-		<a href="#top" id="up">
-			<i class="fa fa-chevron-up"></i>
-		</a>
-	</section>
+    <main class="section">
+        <div class="container">
+            $body$
+        </div>
+    </main>
 
 
-  <script src="/js/advert.js"></script>
-	<!-- Piwik -->
-	<script type="text/javascript">
-	  var _paq = _paq || [];
-	  _paq.push(['trackPageView']);
-	  _paq.push(['enableLinkTracking']);
-	  (function() {
-	    var u="https://analytics.quantic-telecom.net/";
-	    _paq.push(['setTrackerUrl', u+'piwik.php']);
-	    _paq.push(['setSiteId', 4]);
-	    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-	    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-	  })();
-	</script>
-	<noscript><p><img src="//analytics.quantic-telecom.net/piwik.php?idsite=4" style="border:0;" alt="" /></p></noscript>
-	<!-- End Piwik Code -->
+    <script src="/js/advert.js"></script>
+    <!-- Piwik -->
+    <script type="text/javascript">
+    var _paq = _paq || [];
+    _paq.push(['trackPageView']);
+    _paq.push(['enableLinkTracking']);
+    (function() {
+        var u="https://analytics.quantic-telecom.net/";
+        _paq.push(['setTrackerUrl', u+'piwik.php']);
+        _paq.push(['setSiteId', 4]);
+        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+    })();
+    </script>
+    <noscript><p><img src="//analytics.quantic-telecom.net/piwik.php?idsite=4" style="border:0;" alt="" /></p></noscript>
+    <!-- End Piwik Code -->
 </body>
 </html>

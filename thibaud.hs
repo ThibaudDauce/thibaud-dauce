@@ -6,15 +6,17 @@ import           Data.Monoid   (mappend)
 import           Hakyll
 import           System.FilePath
 import           Data.List
+import           Data.Time       (TimeLocale(..), utc)
 
 --------------------------------------------------------------------------------
 main :: IO ()
 main = hakyll $ do
-    match "images/*" $ do
+    match "images/**" $ do
         route   idRoute
         compile copyFileCompiler
 
-    imageProcessor "images/*" [ ("thumbnail" , Just 310) ]
+    imageProcessor "images/**.png" [ ("thumbnail" , Just 260) ]
+    imageProcessor "images/**.jpg" [ ("thumbnail" , Just 260) ]
 
     match "files/*" $ do
         route   idRoute
@@ -36,11 +38,16 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
+    match "talks/*.md" $ do
+        route idRoute
+        compile $ pandocCompiler
+          >>= relativizeUrls
+
     match "talks/**" $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "sass/app.scss" $ do
+    match "sass/app.sass" $ do
         route   $ setExtension "css"
         compile $ getResourceFilePath
             >>= \fp -> unixFilter "sassc" [fp] ""
@@ -55,11 +62,14 @@ main = hakyll $ do
           >>= loadAndApplyTemplate "templates/default.html" postCtx
           >>= relativizeUrls
 
+
+
     match "index.html" $ do
         route idRoute
         compile $ do
             let indexCtx =
                     constField "title" "Home"                `mappend`
+                    constField "home" "true"                 `mappend`
                     defaultContext
 
             getResourceBody
@@ -75,6 +85,7 @@ main = hakyll $ do
             let indexCtx =
                     listField "posts" postCtx (return posts) `mappend`
                     constField "title" "Blog"                `mappend`
+                    constField "blog" "true"                 `mappend`
                     defaultContext
 
             getResourceBody
@@ -87,7 +98,9 @@ main = hakyll $ do
     match "talks.html" $ do
         route idRoute
         compile $ do
+            talks <- recentFirst =<< loadAll "talks/*.md"
             let indexCtx =
+                    listField "talks" talkCtx (return talks) `mappend`
                     constField "title" "Talks"                `mappend`
                     defaultContext
 
@@ -98,6 +111,7 @@ main = hakyll $ do
             >>= relativizeUrls
 
     match "templates/*" $ compile templateCompiler
+    match "icons/*" $ compile templateCompiler
 
     createFeed "feed.xml" renderRss
     createFeed "atom.xml" renderAtom
@@ -105,8 +119,15 @@ main = hakyll $ do
 --------------------------------------------------------------------------------
 postCtx :: Context String
 postCtx =
-    dateField "date" "%B %e, %Y" `mappend`
+    dateFieldWith frTimeLocale "date" "%e %B %Y" `mappend`
     teaserField "teaser" "content" `mappend`
+    constField "blog" "true"       `mappend`
+    constField "post" "true"       `mappend`
+    defaultContext
+
+talkCtx :: Context String
+talkCtx =
+    dateFieldWith frTimeLocale "date" "%e %B %Y" `mappend`
     defaultContext
 
 feedCtx :: Context String
@@ -173,7 +194,7 @@ imageRules pat procs = match pat $ do
         let cmd = "convert"
         let args = [ "-"
                    , "-background"
-                   , "#F6F8F9"
+                   , "white"
                    , "-transparent"
                    , "white"
                    , "-gravity"
@@ -181,7 +202,28 @@ imageRules pat procs = match pat $ do
                    , "-resize"
                    , show width ++ "x" ++ show width
                    , "-extent"
-                   , show width ++ "x" ++ show width
+                   , "300x260"
                    , "-"
                    ]
         compile $ getResourceLBS >>= withItemBody (unixFilterLBS cmd args)
+
+frTimeLocale :: TimeLocale
+frTimeLocale =  TimeLocale {
+  wDays  = [("dimanche", "dim"), ("lundi",    "lun"),
+            ("mardi",    "mar"), ("mercredi", "mer"),
+            ("jeudi",    "jeu"), ("vendredi", "ven"),
+            ("samedi",   "sam")],
+
+  months = [("janvier",   "jan"), ("février",  "fev"),
+            ("mars",      "mar"), ("avril",    "avr"),
+            ("mai",       "mai"), ("juin",    "juin"),
+            ("juillet",  "juil"), ("août",    "août"),
+            ("septembre", "sep"), ("octobre",  "oct"),
+            ("novembre",  "nov"), ("décembre", "dec")],
+  amPm = (" du matin", " de l'après-midi"),
+  dateTimeFmt = "%a %e %b %Y, %H:%M:%S %Z",
+  dateFmt   = "%d-%m-%Y",
+  timeFmt   = "%H:%M:%S",
+  time12Fmt = "%I:%M:%S %p",
+  knownTimeZones = [utc]
+}

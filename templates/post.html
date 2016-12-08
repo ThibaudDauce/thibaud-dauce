@@ -1,26 +1,10 @@
-<nav>
-    <a href="/blog.html" class="read-more">
-      <i class="fa fa-chevron-left"></i> Back to the index
-    </a>
-
-</nav>
-
-<article class="post">
-  <h1>
-      $title$
-  </h1>
-  $if(code)$
-      <a href="$code$">
-        <i class="fa fa-gitlab"></i> Source code available on Gitlab
-      </a>
-  $endif$
-
-  $body$
+<article class="content">
+    $body$
 </article>
 
 <footer>
-  <p class="center">
-    This blog is powered by <a href="http://jaspervdj.be/hakyll/">Hakyll</a>.
-    If you find an error or a typo, <a href="https://github.com/ThibaudDauce/thibaud-dauce/blob/master/$path$">please contribute on Github!</a> <i class="fa fa-github"></i>
-  </p>
+    <p class="center">
+        This blog is powered by <a href="http://jaspervdj.be/hakyll/">Hakyll</a>.
+        If you find an error or a typo, <a href="https://github.com/ThibaudDauce/thibaud-dauce/blob/master/$path$">please contribute on Github!</a> <i class="fa fa-github"></i>
+    </p>
 </footer>

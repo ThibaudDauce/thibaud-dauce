@@ -1,226 +1,59 @@
-<nav class="title">
-  <p>
-    Go back to <a href="/">the homepage</a> or look at <a href="/blog.html">my blog</a>
-  </p>
-</nav>
-
-
-<article class="teaser">
-    <h1>J'aime bien discuter ! (in French for now)</h1>
-
-    <p>
-        Si vous cherchez des personnes pour animer des conférences, des débats ou <a href="https://www.formations-laravel.fr">des formations</a> autour :
-        <ul>
-            <li>du développement web (PHP, Laravel mais aussi les bonnes pratiques) ;</li>
-            <li>de la programmation orientée objet ou fonctionnelle ;</li>
-            <li>des bases de données SQL ou NoSQL.</li>
-        </ul>
-    </p>
-
-    <footer>
-      <a href="/index.html#contact" class="button big">
-        N'hésitez pas à me contacter
-      </a>
-    </footer>
-</article>
-
-<article class="teaser">
-    <h1>[French] Réaliser une application Laravel testée qui communique avec une base de données</h1>
-
-    <div class="grid-3-1 grid-3-small-1">
-        <div>
-            <p>
-                Réaliser une application Laravel testée qui communique avec une base de données
-            </p>
-
-            <p>
-                Je suis un grand fan des tests. Dans ce troisième TP Live, je présente comment connecter sa liste de tâches à une base de données en Laravel mais également comment utiliser les outils fournis par le framework pour vérifier en moins d'une seconde que tout fonctionne. Vous voulez découvrir comment développer sans ouvrir le navigateur et en utilisant uniquement <code>phpunit</code>, ce TP Live est pour vous !
-            </p>
-
-            <p>
-                Le replay de la vidéo est accessible aux abonnés Premium d'OpenClassrooms.
-            </p>
+$for(talks)$
+<article class="media">
+    <figure class="media-left">
+        <div class="image is-300x300">
+            $if(thumbnail)$
+                <img src="$thumbnail$" alt="$title$" class="fr"/>
+            $else$
+                $if(image)$
+                    <img src="$image$" alt="$title$" class="fr"/>
+                $else$
+                    $if(video)$
+                        <video controls src="$video$"></video>
+                    $else$
+                        $if(iframe)$
+                            <iframe src="$iframe$"></iframe>
+                        $endif$
+                    $endif$
+                $endif$
+            $endif$
         </div>
-        <aside>
-            <img src="/talks/tplive-laravel/testing.jpg" alt="Réaliser une application Laravel testée qui communique avec une base de données" />
-        </aside>
-    </div>
-
-    <p>
-        <a href="https://openclassrooms.com/p/tp-live-premium" class="read-more">
-            Voir la vidéo (abonnés Premium d'OpenClassrooms uniquement) <i class="fa fa-chevron-right"></i>
-        </a>
-    </p>
-</article>
-
-<article class="teaser">
-    <h1>[French] Vues et contrôleurs avec Laravel</h1>
-
-    <div class="grid-3-1 grid-3-small-1">
-        <div>
-            <p>
-                TP Live d'une heure pour les élèves d'OpenClassrooms le 30 mars 2016 sur Hangouts On Air.
-            </p>
-
-            <p>
-                Dans ce second TP Live, je m'attaque à la classique application « liste de tâches ». Je montre plusieurs fonctionalités de Blade, le moteur de template de Laravel, comme par exemple le <code>@forElse</code>. Puis je transforme toutes les fonctions anonymes en appels de méthodes sur de nouveaux contrôleurs. Nous apprenons également à nommer nos routes, à générer des liens à partir de ces noms et à passer des paramètres à nos contrôleurs.
-            </p>
-
-            <p>
-                Le replay de la vidéo est accessible aux abonnés Premium d'OpenClassrooms.
-            </p>
+    </figure>
+    <div class="media-content">
+        <div class="content">
+            <h3>
+                <strong>$title$</strong> <small>$date$</small>
+            </h3>
+            $body$
         </div>
-        <aside>
-            <img src="/talks/tplive-laravel/todoapp.jpg" alt="Une liste de tâches en Laravel" />
-        </aside>
+        <nav class="level">
+            <div class="level-left">
+                $if(slides)$
+                    <a href="$slides$" class="level-item button is-primary">
+                        <span class="icon">
+                            $partial("icons/document.html")$
+                        </span>
+                        <span>
+                            Voir les slides
+                        </span>
+                    </a>
+                $endif$
+                $if(video)$
+                    <a href="$video$" class="level-item button is-primary">
+                        <span class="icon">
+                            $partial("icons/play-outline.html")$
+                        </span>
+                        <span>
+                            $if(video_label)$
+                                $video_label$
+                            $else$
+                                Voir la vidéo
+                            $endif$
+                        </span>
+                    </a>
+                $endif$
+            </div>
+        </nav>
     </div>
-
-    <p>
-        <a href="https://openclassrooms.com/p/tp-live-premium" class="read-more">
-            Voir la vidéo (abonnés Premium d'OpenClassrooms uniquement) <i class="fa fa-chevron-right"></i>
-        </a>
-    </p>
 </article>
-
-<article class="teaser">
-    <h1>[French] Prise en main de Laravel</h1>
-
-    <div class="grid-3-1 grid-3-small-1">
-        <div>
-            <p>
-                TP Live d'une heure pour les élèves d'OpenClassrooms le 2 mars 2016 sur Hangouts On Air.
-            </p>
-
-            <p>
-                Dans ce premier TP Live, je montre comment installer toutes les dépendances de Laravel (<a href="https://secure.php.net/">PHP</a> et <a href="https://getcomposer.org">Composer</a>). Après avoir téléchargé Laravel, j'explique l'utilité de chaque dossier de l'arborescense. Enfin, je crée une première route et une première vue.
-            </p>
-
-            <p>
-                Le replay de la vidéo est accessible aux abonnés Premium d'OpenClassrooms.
-            </p>
-        </div>
-        <aside>
-            <img src="/talks/tplive-laravel/prise-en-main.jpg" alt="Prise en main de Laravel" />
-        </aside>
-    </div>
-
-    <p>
-        <a href="https://openclassrooms.com/p/tp-live-premium" class="read-more">
-            Voir la vidéo (abonnés Premium d'OpenClassrooms uniquement) <i class="fa fa-chevron-right"></i>
-        </a>
-    </p>
-</article>
-
-<article class="teaser">
-    <h1>[French] Event Store</h1>
-
-    <div class="grid-3-1 grid-3-small-1">
-        <div>
-            <p>
-                Quickie de 15 minutes le 23 février 2016 à Seine Innopolis lors du <a href="http://www.normandyjug.org/">Normandy Java User Group</a>.
-            </p>
-
-            <p>
-                Le CQRS tout le monde en parle, mais comment le mettre en place. L’event sourcing est une des solutions, et Event Store est une des bases de données NoSQL la plus intéressante dans ce domaine, voyons ce que l’on peut faire avec.
-            </p>
-
-            <p>
-                Les slides sont également disponibles <a href="https://github.com/ThibaudDauce/jug-event-store">sur Github</a>.
-            </p>
-        </div>
-        <aside>
-            <iframe src="/talks/jug-event-store/index.html"></iframe>
-        </aside>
-    </div>
-
-    <p>
-        <a href="/talks/jug-event-store/index.html#/" class="read-more">
-            Voir les slides <i class="fa fa-chevron-right"></i>
-        </a>
-    </p>
-</article>
-
-<article class="teaser">
-    <h1>[French] Qu'est-ce qu'Internet ?</h1>
-
-    <div class="grid-3-1 grid-3-small-1">
-        <div>
-            <p>
-                Quickie de 15 minutes le 23 février 2016 à Seine Innopolis lors du <a href="http://www.normandyjug.org/">Normandy Java User Group</a>.
-            </p>
-
-            <p>
-                Vous l’utilisez tous les jours, toutes les heures, voir même chaque minute. Et pourtant, savez-vous vraiment ce qu’est Internet ? Comment fonctionne Internet ?
-            </p>
-
-            <p>
-                Les slides sont également disponibles <a href="https://github.com/ThibaudDauce/jug-internet">sur Github</a>.
-            </p>
-        </div>
-        <aside>
-            <iframe src="/talks/jug-internet/index.html"></iframe>
-        </aside>
-    </div>
-
-    <p>
-        <a href="/talks/jug-internet/index.html#/" class="read-more">
-            Voir les slides <i class="fa fa-chevron-right"></i>
-        </a>
-    </p>
-</article>
-
-<article class="teaser">
-    <h1>[French] L'injection de dépendance ou comment découpler ses objets</h1>
-
-    <div class="grid-3-1 grid-3-small-1">
-        <div>
-            <p>
-                Quickie de 15 minutes le 26 novembre 2015 à la fac de Rouen lors de <a href="http://www.codeursenseine.com/">Codeurs en Seine</a>.
-            </p>
-
-            <p>
-                Ce petit quickie parlera de l'injection de dépendance : un mécanisme permettant de construire des objets totalement découplés les uns des autres mais facilement utilisable entre eux afin de créer des applications plus pérennes. Vos objets seront plus simples, les tester deviendra un vrai plaisir et la maintenance sera beaucoup plus facile.
-            </p>
-        </div>
-        <aside>
-            <img src="/talks/codeurs-en-seine-injection-dependance/thumbnail.png" alt="L'injection de dépendance ou comment découpler ses objets" class="fr"/>
-        </aside>
-    </div>
-
-    <p>
-        <a href="/talks/codeurs-en-seine-injection-dependance/slides.pdf" class="read-more">
-            Voir les slides <i class="fa fa-chevron-right"></i>
-        </a>
-    </p>
-</article>
-
-<article class="teaser">
-    <h1>[French] Bases de données aujourd'hui et bases de données NoSQL</h1>
-
-    <div class="grid-3-1 grid-3-small-1">
-        <div>
-            <p>
-                Cours d'1h30 devant les étudiants <a href="http://asi.insa-rouen.fr/">ASI</a> de 3e année à l'<a href="http://www.insa-rouen.fr">INSA de Rouen</a> le 20 février 2015. Nous avons redonné la même présentation mise à jour le 4 mars 2016.
-            </p>
-
-            <p>
-                La formation en bases de données de l'INSA est orientée bases de données relationnelles. Avec <a href="https://www.antoine-augusti.fr/">Antoine Augusti</a>, nous avons choisi un Projet Approfondissement et d'Ouverture (option encadrée par un professeur à l'INSA) sur le NoSQL. Nous avons travaillé un an sur un état de l'art des bases de données NoSQL et un prototype d'application. Pour clôturer notre projet, nous avons donné une introduction au NoSQL aux étudiants de 3e année lors de leur dernier cours de bases de données. L'intégralité de notre projet est disponible <a href="https://github.com/AntoineAugusti/NoSQL-etatart">sur Github</a>.
-            </p>
-        </div>
-        <aside>
-            <img src="/talks/insa-nosql/thumbnail.png" alt="Bases de données aujourd'hui et bases de données NoSQL" class="fr"/>
-        </aside>
-    </div>
-
-    <p>
-        <a href="/talks/insa-nosql/slides.pdf" class="read-more">
-            Voir les slides <i class="fa fa-chevron-right"></i>
-        </a>
-    </p>
-
-    <p>
-        <a href="https://www.youtube.com/watch?v=oIpjcqHyx2M" class="read-more">
-            Voir la vidéo <i class="fa fa-chevron-right"></i>
-        </a>
-    </p>
-</article>
+$endfor$

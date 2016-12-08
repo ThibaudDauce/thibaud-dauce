@@ -1,7 +1,7 @@
 ---
 title: "Laravel Foreign Relations"
 image: /images/stripe.png
-thumbnail: /images/stripe.png
+thumbnail: /images/thumbnail-stripe.png
 code: https://framagit.org/ThibaudDauce/laravel-foreign-relations
 description: In this article, I'll create a proof of concept using Laravel's Eloquent relations to fetch a foreign data source as Stripe.
 ---
@@ -10,7 +10,7 @@ The Laravel community is a huge fan of [Stripe](https://stripe.com). As Laravel,
 
 <!--more-->
 
-## Laravel's relation mecanism
+### Laravel's relation mecanism
 
 As you may know, you can [define relations](https://laravel.com/docs/5.3/eloquent-relationships) with Laravel. In your model, `hasMany`, `belongsTo` or `belongsToMany` are already-provided helpers to create links between your models.
 
@@ -27,11 +27,11 @@ class User {
 
 But behind the scene, these methods returns children of the `Relation` object. These children could be `HasMany`, `BelongsTo`, `BelongsToMany`, etc. The `Relation` object is an abstract class you need to extend to build a new type of relations. This class is tightly tied with the Eloquent Builder class, which is a big problem. Laravel assumes Eloquent models in both sides of our relation. But in our case, it's one Eloquent model and one `Stripe\Customer` object.
 
-## Building the `StripeRelation`
+### Building the `StripeRelation`
 
 `StripeRelation` is my child for the `Relation` object. It will fetch and hydrate my models with the customers from Stripe.
 
-### Constructor
+#### Constructor
 
 In order to build a `Relation` object, Laravel needs a builder from the foreign class and the instance of the main model. In our example, the foreign class is `Stripe\Customer` and the main model is `App\User`.
 
@@ -44,7 +44,7 @@ public function __construct(Model $model)
 }
 ```
 
-### `addConstraints` and `addEagerConstraints`
+#### `addConstraints` and `addEagerConstraints`
 
 The main goal of these methods is to set a `where` clause on the query builder with "id = stripe_id" or "id in [stripe_id_1, stripe_id_2, stripe_id_3]". Since my query builder is a special one, and I know it will be a custom `StripeQueryBuilder`, I can set two public properties `id` for when I need to fetch one Stripe customer, `ids` when I need to fetch all Stripe customers for a collection of users. We will see in the next part how we use these information to fetch the customers from Stripe.
 
@@ -62,11 +62,11 @@ public function addEagerConstraints(array $models)
 
 In these methods `$this->localKey` is the name of the attribute of the user model which contains the Stripe ID (default to `stripe_id`).
 
-### `initRelation`
+#### `initRelation`
 
 This method sets the default foreign model for all the users. I don't have a default Stripe model so I just return the unchanged array of models.
 
-### `getResults`
+#### `getResults`
 
 The name of this method is misleading, its goal is just to fetch one foreign model (one Stripe customer) for one parent model (one user) when you simply type `$user->stripe`. I can delegate the API call to my `StripeQueryBuilder` class. The `stripe_id` of the user has already been set in the `StripeQueryBuilder` by the parent `Relation` class with `addConstraints`.
 
@@ -77,7 +77,7 @@ public function getResults()
 }
 ```
 
-### `match`
+#### `match`
 
 This method is called when you try to load the relation on a collection to avoid the [N + 1 problem](https://laravel.com/docs/5.3/eloquent-relationships#eager-loading). It takes three arguments:
 
@@ -98,11 +98,11 @@ public function match(array $models, Collection $results, $relation)
 }
 ```
 
-## Building the `StripeQueryBuilder`
+### Building the `StripeQueryBuilder`
 
 Now we need to build our `StripeQueryBuilder` which will call the Stripe API to fetch the requested customers. My class needs to extend the Eloquent Builder and override some methods. Most of the methods will not be changed so it will be impossible to call more *intelligent* methods like `$user->stripe()->update(['delinquent' => true])`.
 
-### Constructor
+#### Constructor
 
 The parent model needs a Query. I will simply mock it.
 
@@ -113,7 +113,7 @@ public function __construct()
 }
 ```
 
-### `first`
+#### `first`
 
 The `first` method fetch one customer based on the ID previously set in the `$id` attribute of the Query Builder.
 
@@ -128,7 +128,7 @@ public function first($columns = ['*'])
 }
 ```
 
-### `get`
+#### `get`
 
 It's impossible to ask Stripe for all customers with IDs in an array (a simple `WHERE IN` with SQL). I need to fetch all customers and then filter them with PHP. The maximum number of customers for each request is 100. So I need to ask for 100 customers until Stripe tells me that there is no more or all my IDs have been found.
 
@@ -156,7 +156,7 @@ public function get($columns = ['*'])
 }
 ```
 
-## Conclusion
+### Conclusion
 
 This project is a very basic implementation. It's probably possible to do more. But it shows how you can keep a simple API for your models even with foreign relations. The working final project is available on [https://framagit.org/ThibaudDauce/laravel-foreign-relations](https://framagit.org/ThibaudDauce/laravel-foreign-relations).
 
