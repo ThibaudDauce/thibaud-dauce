@@ -1,4 +1,4 @@
-$for(posts)$
+$for(recents)$
 <article class="media">
     <figure class="media-left">
         <div class="image is-300x300">
@@ -41,6 +41,16 @@ $for(posts)$
                 $endif$
             </div>
         </nav>
+    </div>
+</article>
+$endfor$
+
+$for(olds)$
+<article class="media">
+    <div class="media-content">
+        <h3 class="title is-4">
+            <a href="$url$"><strong>$title$</strong></a> <small>$date$</small>
+        </h3>
     </div>
 </article>
 $endfor$

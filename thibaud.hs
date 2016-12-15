@@ -62,8 +62,6 @@ main = hakyll $ do
           >>= loadAndApplyTemplate "templates/default.html" postCtx
           >>= relativizeUrls
 
-
-
     match "index.html" $ do
         route idRoute
         compile $ do
@@ -82,8 +80,10 @@ main = hakyll $ do
         route idRoute
         compile $ do
             posts <- recentFirst =<< loadAll "posts/*"
+            let (recents, olds) = splitAt 10 posts
             let indexCtx =
-                    listField "posts" postCtx (return posts) `mappend`
+                    listField "recents" postCtx (return recents) `mappend`
+                    listField "olds" postCtx (return olds) `mappend`
                     constField "title" "Blog"                `mappend`
                     constField "blog" "true"                 `mappend`
                     defaultContext
@@ -119,7 +119,7 @@ main = hakyll $ do
 --------------------------------------------------------------------------------
 postCtx :: Context String
 postCtx =
-    dateFieldWith frTimeLocale "date" "%e %B %Y" `mappend`
+    dateField "date" "%B %e, %Y" `mappend`
     teaserField "teaser" "content" `mappend`
     constField "blog" "true"       `mappend`
     constField "post" "true"       `mappend`
