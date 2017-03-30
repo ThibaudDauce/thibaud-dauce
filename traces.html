@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=utf-8 />
+<title>Randonnées — Thibaud Dauce</title>
+<meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+<script src='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.js'></script>
+<link href='https://api.mapbox.com/mapbox.js/v3.0.1/mapbox.css' rel='stylesheet' />
+<style>
+  body { margin:0; padding:0; }
+  #map { position:absolute; top:0; bottom:0; width:100%; }
+</style>
+</head>
+<body>
+
+<script src='https://api.mapbox.com/mapbox.js/plugins/leaflet-omnivore/v0.2.0/leaflet-omnivore.min.js'></script>
+
+<div id='map'></div>
+
+<script>
+L.mapbox.accessToken = 'pk.eyJ1IjoidGhpYmF1ZGRhdWNlIiwiYSI6ImNqMHdpNXNiYjAwMTkzMm1vbWpwb2p6czkifQ.bxPv6_pQ9eucWIDMdyBygg';
+var map = L.mapbox.map('map', 'mapbox.streets');
+
+// omnivore will AJAX-request this file behind the scenes and parse it:
+// note that there are considerations:
+// - The file must either be on the same domain as the page that requests it,
+//   or both the server it is requested from and the user's browser must
+//   support CORS.
+
+map.setView(new L.LatLng(46.498, 2.197), 7);
+
+omnivore.gpx('/files/traces/2016_08_01_15_48_Mon.gpx')
+    .addTo(map);
+
+omnivore.gpx('/files/traces/2016_08_02_08_07_Tue.gpx')
+    .addTo(map);
+
+omnivore.gpx('/files/traces/2016_08_03_09_29_Wed.gpx')
+    .addTo(map);
+
+omnivore.gpx('/files/traces/2016_08_04_07_52_Thu.gpx')
+    .addTo(map);
+
+omnivore.gpx('/files/traces/2016_08_05_07_47_Fri.gpx')
+    .addTo(map);
+
+omnivore.gpx('/files/traces/2016_08_08_14_33_Mon.gpx')
+    .addTo(map);
+
+omnivore.gpx('/files/traces/2016_10_23_10_06_Sun.gpx')
+    .addTo(map);
+
+omnivore.gpx('/files/traces/2016_08_05_15_52_Fri.gpx')
+    .addTo(map);
+
+omnivore.gpx('/files/traces/2016_10_24_10_27_Mon.gpx')
+    .addTo(map);
+
+omnivore.gpx('/files/traces/2016_10_25_09_03_Tue.gpx')
+    .addTo(map);
+
+omnivore.gpx('/files/traces/2016_10_25_12_24_Tue.gpx')
+    .addTo(map);
+
+omnivore.gpx('/files/traces/2017_01_01_12_07_Sun.gpx')
+    .addTo(map);
+</script>
+
+</body>
+</html>

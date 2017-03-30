@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<gpx version="1.1" creator="OsmAnd+" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <trk>
+    <trkseg>
+      <trkpt lat="47.5800159" lon="1.3210819">
+        <ele>90.15898962461361</ele>
+        <time>2016-08-08T12:33:08Z</time>
+        <hdop>8.0</hdop>
+      </trkpt>
+      <trkpt lat="47.5800159" lon="1.3210819">
+        <ele>78.34725756218936</ele>
+        <time>2016-08-08T12:33:39Z</time>
+        <hdop>8.0</hdop>
+      </trkpt>
+      <trkpt lat="47.5800159" lon="1.3210819">
+        <ele>77.5488715255564</ele>
+        <time>2016-08-08T12:34:09Z</time>
+        <hdop>8.0</hdop>
+      </trkpt>
+      <trkpt lat="47.5800159" lon="1.3210819">
+        <ele>77.30954889455745</ele>
+        <time>2016-08-08T12:34:40Z</time>
+        <hdop>8.0</hdop>
+      </trkpt>
+      <trkpt lat="47.5800159" lon="1.3210819">
+        <ele>77.44157485153582</ele>
+        <time>2016-08-08T12:35:11Z</time>
+        <hdop>6.0</hdop>
+      </trkpt>
+      <trkpt lat="47.5800159" lon="1.3210819">
+        <ele>77.67494239729199</ele>
+        <time>2016-08-08T12:35:42Z</time>
+        <hdop>8.0</hdop>
+      </trkpt>
+      <trkpt lat="47.5800159" lon="1.3210819">
+        <ele>77.71978321349874</ele>
+        <time>2016-08-08T12:36:13Z</time>
+        <hdop>6.0</hdop>
+      </trkpt>
+      <trkpt lat="47.5800159" lon="1.3210819">
+        <ele>77.83626717039994</ele>
+        <time>2016-08-08T12:36:43Z</time>
+        <hdop>8.0</hdop>
+      </trkpt>
+      <trkpt lat="47.5800159" lon="1.3210819">
+        <ele>78.74887804849904</ele>
+        <time>2016-08-08T12:37:13Z</time>
+        <hdop>12.0</hdop>
+      </trkpt>
+      <trkpt lat="47.5800159" lon="1.3210819">
+        <ele>80.1187499622557</ele>
+        <time>2016-08-08T12:37:44Z</time>
+        <hdop>6.0</hdop>
+      </trkpt>
+      <trkpt lat="47.5801354" lon="1.3211814">
+        <ele>90.27332271308137</ele>
+        <time>2016-08-08T12:38:14Z</time>
+        <hdop>12.0</hdop>
+        <extensions>
+          <speed>0.14068596065044403</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.5801955" lon="1.321213">
+        <ele>90.88415306076195</ele>
+        <time>2016-08-08T12:38:44Z</time>
+        <hdop>12.0</hdop>
+      </trkpt>
+      <trkpt lat="47.5801755" lon="1.3211903">
+        <ele>91.32102674670611</ele>
+        <time>2016-08-08T12:39:15Z</time>
+        <hdop>12.0</hdop>
+      </trkpt>
+      <trkpt lat="47.5800872" lon="1.3210716">
+        <ele>92.5049474142134</ele>
+        <time>2016-08-08T12:39:46Z</time>
+        <hdop>12.0</hdop>
+      </trkpt>
+      <trkpt lat="47.5800872" lon="1.3210716">
+        <ele>92.63592973829168</ele>
+        <time>2016-08-08T12:40:16Z</time>
+        <hdop>12.0</hdop>
+      </trkpt>
+      <trkpt lat="47.5800889" lon="1.3210814">
+        <ele>92.45691137678014</ele>
+        <time>2016-08-08T12:40:47Z</time>
+        <hdop>8.0</hdop>
+      </trkpt>
+      <trkpt lat="47.5800889" lon="1.3210814">
+        <ele>92.7825905642434</ele>
+        <time>2016-08-08T12:41:18Z</time>
+        <hdop>8.0</hdop>
+      </trkpt>
+      <trkpt lat="47.5800889" lon="1.3210814">
+        <ele>92.30287134971519</ele>
+        <time>2016-08-08T12:41:48Z</time>
+        <hdop>8.0</hdop>
+      </trkpt>
+      <trkpt lat="47.5800602" lon="1.3210666">
+        <ele>91.3338260169538</ele>
+        <time>2016-08-08T12:42:18Z</time>
+        <hdop>16.0</hdop>
+      </trkpt>
+      <trkpt lat="47.5800407" lon="1.3210549">
+        <ele>92.0082856748428</ele>
+        <time>2016-08-08T12:42:49Z</time>
+        <hdop>8.0</hdop>
+      </trkpt>
+      <trkpt lat="47.580046" lon="1.3210732">
+        <ele>91.92977010846491</ele>
+        <time>2016-08-08T12:43:20Z</time>
+        <hdop>12.0</hdop>
+      </trkpt>
+      <trkpt lat="47.5800453" lon="1.3211119">
+        <ele>91.41093811777174</ele>
+        <time>2016-08-08T12:43:51Z</time>
+        <hdop>12.0</hdop>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

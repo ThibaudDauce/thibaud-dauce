@@ -1,0 +1,76 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<gpx version="1.1" creator="OsmAnd+" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <trk>
+    <trkseg>
+      <trkpt lat="46.0836465" lon="6.7268047">
+        <ele>710.0369210649874</ele>
+        <time>2016-08-05T13:52:29Z</time>
+        <hdop>12.0</hdop>
+      </trkpt>
+      <trkpt lat="46.0837373" lon="6.7263926">
+        <ele>709.5586772096084</ele>
+        <time>2016-08-05T13:52:59Z</time>
+        <hdop>8.0</hdop>
+        <extensions>
+          <speed>1.0103956460952759</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.0837428" lon="6.7259502">
+        <ele>713.1812082614294</ele>
+        <time>2016-08-05T13:53:30Z</time>
+        <hdop>6.0</hdop>
+        <extensions>
+          <speed>1.045516014099121</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.0836953" lon="6.7254173">
+        <ele>711.3369831519221</ele>
+        <time>2016-08-05T13:54:01Z</time>
+        <hdop>6.0</hdop>
+        <extensions>
+          <speed>0.999739944934845</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.083493" lon="6.7250958">
+        <ele>709.415355533596</ele>
+        <time>2016-08-05T13:54:31Z</time>
+        <hdop>6.0</hdop>
+        <extensions>
+          <speed>0.9360901117324829</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.083195" lon="6.7248339">
+        <ele>706.321319683084</ele>
+        <time>2016-08-05T13:55:02Z</time>
+        <hdop>6.0</hdop>
+        <extensions>
+          <speed>1.1573643684387207</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.0829158" lon="6.7246262">
+        <ele>706.0895784953947</ele>
+        <time>2016-08-05T13:55:32Z</time>
+        <hdop>12.0</hdop>
+        <extensions>
+          <speed>0.769432544708252</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.0826031" lon="6.7243999">
+        <ele>706.304380140775</ele>
+        <time>2016-08-05T13:56:03Z</time>
+        <hdop>8.0</hdop>
+        <extensions>
+          <speed>0.7890996336936951</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="46.0825815" lon="6.7238672">
+        <ele>703.7076581261682</ele>
+        <time>2016-08-05T13:56:34Z</time>
+        <hdop>8.0</hdop>
+        <extensions>
+          <speed>0.6447328925132751</speed>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>

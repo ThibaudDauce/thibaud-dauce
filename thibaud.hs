@@ -18,7 +18,7 @@ main = hakyll $ do
     imageProcessor "images/**.png" [ ("thumbnail" , Just 260) ]
     imageProcessor "images/**.jpg" [ ("thumbnail" , Just 260) ]
 
-    match "files/*" $ do
+    match "files/**/*" $ do
         route   idRoute
         compile copyFileCompiler
 
@@ -94,7 +94,6 @@ main = hakyll $ do
                 >>= relativizeUrls
             >>= relativizeUrls
 
-
     match "talks.html" $ do
         route idRoute
         compile $ do
@@ -109,6 +108,10 @@ main = hakyll $ do
                 >>= loadAndApplyTemplate "templates/default.html" indexCtx
                 >>= relativizeUrls
             >>= relativizeUrls
+
+    match "traces.html" $ do
+        route   idRoute
+        compile copyFileCompiler
 
     match "templates/*" $ compile templateCompiler
     match "icons/*" $ compile templateCompiler
