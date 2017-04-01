@@ -54,7 +54,7 @@ main = hakyll $ do
             >>= makeItem
             >>= return . fmap compressCss
 
-    match "posts/*" $ do
+    match "posts/*.md" $ do
         route $ setExtension "html"
         compile $ pandocCompiler
           >>= saveSnapshot "content"
@@ -109,7 +109,7 @@ main = hakyll $ do
                 >>= relativizeUrls
             >>= relativizeUrls
 
-    match "traces.html" $ do
+    match "hiking.html" $ do
         route   idRoute
         compile copyFileCompiler
 
