@@ -1,7 +1,7 @@
 ---
 title: "Pattern Matching in PHP"
-image: /images/migrations-subdirectories.png
-thumbnail: /images/thumbnail-migrations-subdirectories.png
+image: /images/pattern-matching.png
+thumbnail: /images/thumbnail-pattern-matching.png
 code: https://gitlab.com/thibauddauce/pattern-matching
 description: How to build a pattern matching library in PHP?
 ---
@@ -66,7 +66,7 @@ $customer->type = Customer::INDIVIDUAL;
 $this->assertEquals(30, $customer->getPrice());
 ```
 
-If latter, I add a new type `const COMPANY = 'company'` in my class, my tests will remain green. If I use this `if() {} elseif () {} else {}` in a lot of place, it will be difficult to catch all occurrences.
+If latter, I add a new type `const COMPANY = 'company'` in my class, my tests will remain green. If I use this `if() {} elseif () {} else {}` in a lot of places, it will be difficult to catch all occurrences.
 
 ### The solution
 
@@ -100,7 +100,8 @@ class Customer {
 If I add a new type and I change my enumerate definition in one place `new Pattern([self::STUDENT, self::INDIVIDUAL, self::COMPANY])`, my previous tests are now failing with a new exception:
 
 ```
-MissingPatternsDuringMatch: 'company' was missing during the match. Expected patterns were 'student', 'individual', 'company' and received patterns were 'student', 'individual'.
+MissingPatternsDuringMatch: 'company' was missing during the match.
+Expected patterns were 'student', 'individual', 'company' and received patterns were 'student', 'individual'.
 ```
 
 Even if, I never wrote a test to check if the price for a company is correct.
