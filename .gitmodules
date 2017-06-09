@@ -4,3 +4,6 @@
 [submodule "talks/jug-internet"]
 	path = talks/jug-internet
 	url = git@github.com:ThibaudDauce/jug-internet.git
+[submodule "talks/wild-code-school-decouverte-laravel"]
+	path = talks/wild-code-school-decouverte-laravel
+	url = git@framagit.org:ThibaudDauce/wild-code-school-decouverte-laravel.git
