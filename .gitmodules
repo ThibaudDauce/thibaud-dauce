@@ -7,3 +7,6 @@
 [submodule "talks/wild-code-school-decouverte-laravel"]
 	path = talks/wild-code-school-decouverte-laravel
 	url = git@framagit.org:ThibaudDauce/wild-code-school-decouverte-laravel.git
+[submodule "talks/orleans-tech-event-sourcing"]
+	path = talks/orleans-tech-event-sourcing
+	url = git@framagit.org:ThibaudDauce/orleans-tech-event-sourcing.git
