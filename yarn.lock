@@ -3,5 +3,5 @@
 
 
 bulma@^0.4.1:
-  version "0.4.3"
-  resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.4.3.tgz#060da634b579ed99d7cedf0251d9e21e1f5c770d"
+  version "0.4.4"
+  resolved "https://registry.yarnpkg.com/bulma/-/bulma-0.4.4.tgz#182a3d9fb15026b4602aa8da3cf42140bfb9bb2c"
