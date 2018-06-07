@@ -1,0 +1,44 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<gpx version="1.1" creator="OsmAnd+" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <trk>
+    <trkseg>
+      <trkpt lat="47.6557228" lon="1.4886262">
+        <ele>140.801</ele>
+        <time>2018-05-06T16:23:32Z</time>
+        <hdop>6</hdop>
+      </trkpt>
+      <trkpt lat="47.657973" lon="1.4914099">
+        <ele>143.014</ele>
+        <time>2018-05-06T16:32:01Z</time>
+        <hdop>12</hdop>
+        <extensions>
+          <speed>1.277</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.6604706" lon="1.5000788">
+        <ele>128.75</ele>
+        <time>2018-05-06T16:42:01Z</time>
+        <hdop>8</hdop>
+        <extensions>
+          <speed>1.332</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.6654096" lon="1.5134256">
+        <ele>122.163</ele>
+        <time>2018-05-06T17:02:01Z</time>
+        <hdop>8</hdop>
+        <extensions>
+          <speed>1.401</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="47.6654071" lon="1.5130575">
+        <ele>109.971</ele>
+        <time>2018-05-06T17:07:00Z</time>
+        <hdop>8</hdop>
+        <extensions>
+          <speed>0.349</speed>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
