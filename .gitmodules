@@ -10,3 +10,6 @@
 [submodule "talks/orleans-tech-event-sourcing"]
 	path = talks/orleans-tech-event-sourcing
 	url = git@framagit.org:ThibaudDauce/orleans-tech-event-sourcing.git
+[submodule "talks/orleans-tech-programmation-fonctionnelle"]
+	path = talks/orleans-tech-programmation-fonctionnelle
+	url = git@framagit.org:ThibaudDauce/orleans-tech-programmation-fonctionnelle
