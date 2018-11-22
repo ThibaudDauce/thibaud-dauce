@@ -101,6 +101,9 @@ main = hakyll $ do
 
     match "templates/*" $ compile templateBodyCompiler
 
+    createFeed "feed.xml" renderRss
+    createFeed "atom.xml" renderAtom
+
 --------------------------------------------------------------------------------
 postCtx :: Context String
 postCtx = mconcat 
@@ -119,8 +122,8 @@ talkCtx = mconcat
 
 feedCtx :: Context String
 feedCtx = mconcat 
-    [ postCtx
-    , bodyField "description"
+    [ bodyField "description"
+    , postCtx
     ]
 
 type RenderingFunction = FeedConfiguration -> Context String -> [Item String] -> Compiler (Item String)
