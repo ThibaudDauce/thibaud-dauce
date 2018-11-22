@@ -1,4 +1,4 @@
-name:               thibaud-dauce
+name:               thibaud
 version:            0.1.0.0
 build-type:         Simple
 cabal-version:      >= 1.10
@@ -6,7 +6,7 @@ cabal-version:      >= 1.10
 executable thibaud
   main-is:          thibaud.hs
   build-depends:    base == 4.*
-                  , hakyll
+                  , hakyll == 4.12.*
                   , filepath
                   , time
   ghc-options:      -threaded

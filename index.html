@@ -1,156 +1,24 @@
-<section>
-    <h2 class="title is-h2 has-text-centered">What I have done recently?</h2>
-
-    <div class="columns">
-        <article class="column is-one-third has-text-centered">
-            <div>
-                <p class="heading">Learning computer science at INSA</p>
-                <p class="title">5 years</p>
-            </div>
-        </article>
-        <article class="column is-one-third has-text-centered">
-            <div>
-                <p class="heading">Geeking in web development</p>
-                <p class="title">10 years</p>
-            </div>
-        </article>
-        <article class="column is-one-third has-text-centered">
-            <div>
-                <p class="heading">Reading fantasy and science fiction</p>
-                <p class="title">15 years</p>
-            </div>
-        </article>
+<main role="main" class="container py-8">
+    $for(recents)$
+    <div class="mb-16">
+        <h2 class="text-xl sm:text-2xl mb-4 -pt-1 flex flex-col sm:flex-row justify-between sm:items-start">
+            <a href="$url$" class="mb-2 sm:mb-0 text-indigo-dark">$title$</a>
+            <span class="text-base text-grey-dark">$date$</span>
+        </h2>
+        
+        <div class="content">
+            $if(teaser)$
+                $teaser$
+            $endif$
+        </div>
     </div>
-</section>
-
-<section class="section columns is-multiline is-tablet">
-    <article class="column is-half-tablet">
-        <div class="card is-fullwidth">
-            <div class="card-image is-quantic">
-                <img src="/images/quantic-telecom-logo.png" alt="Quantic Telecom, internet service provider.">
-            </div>
-            <div class="card-content">
-                <div class="media">
-                    <div class="media-content">
-                        <p class="title is-5">Quantic Telecom</p>
-                        <p class="subtitle is-6">PHP web development</p>
-                    </div>
-                </div>
-
-                <div class="content">
-                    <p>I founded my company with some friends two years ago after working as a non-profit organization during 3 years. Quantic Telecom is an <strong>internet service provider</strong> that respects net neutrality and works for people who have been forgotten by the large national operators.</p>
-
-                    <p>I'm currently working on our information system with the <strong>Laravel framework</strong>. It manages a lot of useful tools (subscriptions, support, payment…) to improve our productivity. I love to use <strong>strong testing techniques</strong> and <strong>great event-sourced architectures</strong>.</p>
-                </div>
-            </div>
-            <footer class="card-footer">
-                <a class="card-footer-item" href="https://www.quantic-telecom.net/">Quantic Telecom</a>
-            </footer>
-        </div>
-    </article>
-    <article class="column is-half-tablet">
-        <div class="card is-fullwidth">
-            <div class="card-image is-adludio">
-                <img src="/images/adludio.png" alt="Adludio">
-            </div>
-            <div class="card-content">
-                <div class="media">
-                    <div class="media-content">
-                        <p class="title is-5">Adludio</p>
-                        <p class="subtitle is-6">Event sourcing and CQRS</p>
-                    </div>
-                </div>
-
-                <div class="content">
-                    <p>During the summer of 2015, I carried a 3-month internship at Adludio, a London-based startup working on the next generation of mobile advertising. I enjoy working with modern tools like AWS and Docker.</p>
-
-                    <p>During this period, I've developed a software in <strong>Python</strong> to clean data thanks to anomaly detection and played with <strong>D3.js</strong> for some visualizations. I've also handled the change from their old <strong>Event Store</strong> NoSQL database to a new architecture involving <strong>Amazon Kinesis</strong> and <strong>Amazon S3</strong>. I designed an interface for either batch (S3) or real time (Kinesis) analysis in <strong>NodeJS</strong>.</p>
-                </div>
-            </div>
-            <footer class="card-footer">
-                <a class="card-footer-item" href="http://www.adludio.com/">Adludio</a>
-            </footer>
-        </div>
-    </article>
-    <article class="column is-half-tablet">
-        <div class="card is-fullwidth">
-            <div class="card-image is-libon">
-                <img src="/images/libon.png" alt="Libon.">
-            </div>
-            <div class="card-content">
-                <div class="media">
-                    <div class="media-content">
-                        <p class="title is-5">Libon</p>
-                        <p class="subtitle is-6">Data Mining with Scala on Spark GraphX</p>
-                    </div>
-                </div>
-
-                <div class="content">
-                    <p>Libon is a mobile service designed to improve the communication we have with the people who matter. I've worked in a team of 5 students 22 hours a week during one year for their data scientist team.</p>
-
-                    <p>We built a prototype using <strong>Apache Spark</strong> and <strong>GraphX</strong> to discover communities in their social network. I learned <strong>Scala</strong> and I develop a strong interest in functional programming and <strong>distributed algorithms</strong>. We've also used Zeppelin to visualize data.</p>
-                </div>
-            </div>
-            <footer class="card-footer">
-                <a class="card-footer-item" href="https://www.libon.com/">Libon</a>
-            </footer>
-        </div>
-    </article>
-    <article class="column is-half-tablet">
-        <div class="card is-fullwidth">
-            <div class="card-image is-laravel">
-                Laravel 5
-            </div>
-            <div class="card-content">
-                <div class="media">
-                    <div class="media-content">
-                        <p class="title is-5">Laravel framework</p>
-                        <p class="subtitle is-6">Teaching and giving talks</p>
-                    </div>
-                </div>
-
-                <div class="content">
-                    <p>
-                        One year ago, I started working for <strong>OpenClassrooms</strong>, a famous french MOOC platform. I'm following students during their training as web developpers and help them understanding the key-concepts of <strong>PHP and Symfony</strong>.<br>
-                        I also work as an independant teacher on the <strong>Laravel framework</strong> and provide mentoring and training courses for individuals and companies.
-                    </p>
-
-                    <p>
-                        I started giving talks two years ago and I really enjoy speaking publicly! Please contact me if you're looking for a Laravel or PHP speaker.
-                    </p>
-                </div>
-            </div>
-            <footer class="card-footer">
-                <a class="card-footer-item" href="https://www.formations-laravel.fr">French Laravel teaching</a>
-                <a class="card-footer-item" href="https://www.openclassrooms.com">Openclassrooms mentoring</a>
-            </footer>
-        </div>
-    </article>
-</section>
-
-<section class="section">
-    <h2 class="title is-h2 has-text-centered">Contact me!</h2>
-
-    <div class="columns">
-        <article class="column is-one-third has-text-centered">
-            <div>
-                <p class="heading">With Twitter</p>
-                <p class="subtitle"><a href="https://twitter.com/ThibaudDauce">@ThibaudDauce</a></p>
-            </div>
-        </article>
-        <article class="column is-one-third has-text-centered">
-            <div>
-                <p class="heading">By email</p>
-                <p class="subtitle">thibaud@dauce.fr [<a href="files/thibaud.pub">PGP key</a>]</p>
-            </div>
-        </article>
-        <article class="column is-one-third has-text-centered">
-            <div>
-                <p class="heading">Or by phone</p>
-                <p class="subtitle">+33 (0)6 29 33 37 76</p>
-            </div>
-        </article>
+    $endfor$
+    $for(olds)$
+    <div class="mb-16">
+        <h2 class="text-xl sm:text-2xl mb-4 -pt-1 flex flex-col sm:flex-row justify-between">
+            <a href="$url$" class="text-indigo-dark">$title$</a>
+            <span class="text-base text-grey-dark">$date$</span>
+        </h2>
     </div>
-</article>
-
-<link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+    $endfor$
+</main>

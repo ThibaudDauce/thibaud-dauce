@@ -1,0 +1,46 @@
+@tailwind preflight;
+
+body {
+   font-size: 20px;
+}
+
+.content p, .content ul, .content ol, .content div.sourceCode, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .content video, .content figure {
+   @apply mb-3;
+}
+.content h2 {
+   @apply mt-10;
+}
+
+.content a {
+   @apply text-indigo-dark;
+}
+.content div.sourceCode {
+   @apply -mx-8 px-8 py-4 leading-loose bg-solarized;
+}
+/* 
+.content pre {
+   @apply -mx-8 bg-solarized;
+}
+.content pre code {
+   @apply px-8 py-4 overflow-x-auto;
+} */
+.content p code {
+   @apply bg-solarized px-2 py-1;
+}
+
+.content video, .content figure {
+   @apply max-w-full;
+}
+.content figure {
+   @apply flex flex-col items-center
+}
+.content figure figcaption {
+   @apply text-sm text-grey-dark;
+}
+
+@tailwind components;
+
+@tailwind utilities;
+
+@import "./syntax.css";
+@import "../node_modules/typeface-merriweather/index.css";

@@ -1,141 +1,57 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="initial-scale=1.0">
-    <meta charset="UTF-8">
-    <meta name="description" content="Hey! I'm Thibaud Dauce, technology nerd and dreamer of adventure." />
-
-    <title>$title$ — Thibaud Dauce</title>
-    <link rel="alternate" type="application/rss+xml" title="Thibaud Dauce's blog" href="/feed.xml">
-    <link rel="alternate" type="application/atom+xml" title="Thibaud Dauce's blog" href="/atom.xml">
-    <link rel="shortcut icon" href="/images/favicon.png">
-    <link rel="stylesheet" href="/sass/app.css">
-
-    <meta property="og:title" content="$title$ — Thibaud Dauce">
-    <meta property="og:description" content="$if(description)$ $description$ $else$ Hey! I'm Thibaud Dauce, Laravel artisan and functional programmer apprentice. $endif$">
-    <meta property="og:image" content="$if(thumbnail)$ https://thibaud.dauce.fr$thumbnail$ $endif$">
-    <meta property="og:url" content="https://thibaud.dauce.fr$url$">
-
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@ThibaudDauce" />
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Thibaud's blog</title>
+    <link rel="stylesheet" href="/css/app.css"/>
 </head>
-<body id="top">
-    <header class="hero">
-        <nav class="nav">
-            <div class="nav-center">
-                <a class="nav-item $if(home)$ is-active $endif$" href="/">
-                    About
-                </a>
-                <a class="nav-item$if(blog)$ is-active $endif$" href="/blog.html">
-                    Posts
-                </a>
-                <a class="nav-item$if(talks)$ is-active $endif$" href="/talks.html">
-                    Talks
-                </a>
-                </a>
-                <a class="nav-item" href="/hiking.html">
-                    Hiking
-                </a>
-            </div>
+<body class="overflow-x-hidden bg-grey-lightest text-black font-serif leading-normal min-h-screen flex flex-col">
+    <header class="container py-12">
+        $if(subtitle)$
+        <h2 class="text-lg sm:text-xl font-normal mb-2">$subtitle$</h2>
+        $endif$
+        <h1 class="text-2xl sm:text-4xl font-normal mb-4">$title$</h1>
+        <nav class="flex items-center">
+            $if(blog)$
+                <a href="/" class="no-underline font-semibold text-black">Blog</a>
+            $else$
+                <a href="/" class="no-underline font-semibold text-grey-darker hover:text-black">Blog</a>
+            $endif$
+            
+            <span class="mt-1 mx-3 text-4xl text-grey-darker select-none">&middot;</span>
+            
+            $if(talks)$
+                <a href="/talks.html" class="no-underline font-semibold text-black">Talks</a>
+            $else$
+                <a href="/talks.html" class="no-underline font-semibold text-grey-darker hover:text-black">Talks</a>
+            $endif$
+            
+            <span class="mt-1 mx-3 text-4xl text-grey-darker select-none">&middot;</span>
+            
+            $if(hiking)$
+                <a href="/hiking.html" class="no-underline font-semibold text-black">Hiking</a>
+            $else$
+                <a href="/hiking.html" class="no-underline font-semibold text-grey-darker hover:text-black">Hiking</a>
+            $endif$
+            
+            <span class="mt-1 mx-3 text-4xl text-grey-darker select-none">&middot;</span>
+            
+            $if(about)$
+                <a href="/about.html" class="no-underline font-semibold text-black">About</a>
+            $else$
+                <a href="/about.html" class="no-underline font-semibold text-grey-darker hover:text-black">About</a>
+            $endif$
         </nav>
-        <div class="hero-body">
-            <div class="container">
-                <h1 class="title is-2 has-icon">
-                    $if(home)$
-                        Hey! I'm Thibaud!
-                    $endif$
-                    $if(blog)$
-                        $if(post)$
-                            <a href="/blog.html" class="is-icon">
-                                $partial("icons/arrow-thin-left.html")$
-                            </a>
-                            <span>
-                                $title$
-                            </span>
-                        $else$
-                            Welcome to my blog!
-                        $endif$
-                    $endif$
-                    $if(talks)$
-                         I love to talk about stuff!
-                    $endif$
-                </h1>
-                <h2 class="subtitle is-5">
-                    $if(home)$
-                        Find out what interests me in <a href="/blog.html">my blog</a> and with <a href="/talks.html">my talks</a>
-                    $endif$
-                    $if(blog)$
-                        Go to <a href="/">the homepage</a> or look at <a href="/talks.html">my talks</a>
-                    $endif$
-                    $if(talks)$
-                        Go to <a href="/">the homepage</a> or read <a href="/blog.html">my blog</a>
-                    $endif$
-                </h2>
-                <div class="notification is-warning" id="alert-adblocker">
-                    It seems that you do not use an AdBlocker, I think you should! Ads are bad for our brains and the web doesn't need them. You can download uBlock <a href="https://github.com/gorhill/uBlock">here</a>.
-                </div>
-                $if(talks)$
-                <div class="notification content">
-                    <p>
-                        I only talk in french for now, but it may change soon!
-                    </p>
-                    <p>
-                        N'hésitez pas à me contacter si vous cherchez des personnes pour animer des conférences, des débats ou <a href="https://www.formations-laravel.fr">des formations</a> autour :
-                        <ul>
-                            <li>du développement web (PHP, Laravel mais aussi les bonnes pratiques) ;</li>
-                            <li>de la programmation orientée objet ou fonctionnelle ;</li>
-                            <li>des bases de données SQL ou NoSQL.</li>
-                        </ul>
-                    </p>
-                </div>
-                $endif$
-                $if(code)$
-                <aside>
-                    <a href="$code$" class="button is-primary">
-                        <span class="icon">
-                            $partial("icons/code.html")$
-                        </span>
-                        <span>
-                            Source code available on Git
-                        </span>
-                    </a>
-                </aside>
-                $endif$
-            </div>
-        </div>
     </header>
-
-    <main class="section">
-        <div class="container">
-            $body$
-        </div>
-    </main>
-
-    <footer class="footer">
-      <div class="container">
-        <div class="content has-text-centered">
-          <p>
-            This blog is powered by <a href="http://jaspervdj.be/hakyll/">Hakyll</a>. If you find an error or a typo, <a href="https://github.com/ThibaudDauce/thibaud-dauce/blob/master/$path$">please contribute on Github!</a>
-          </p>
-        </div>
-      </div>
+    
+    $body$
+    
+    <footer class="container text-center py-12 text-base text-grey-darker">
+        <p>
+            This blog is powered by <a href="http://jaspervdj.be/hakyll/" class="text-indigo">Hakyll</a>. If you find an error or a typo, <a href="https://github.com/ThibaudDauce/thibaud-dauce/blob/master/$path$" class="text-indigo">please contribute on Github!</a>
+        </p>
     </footer>
-
-    <script src="/js/advert.js"></script>
-    <!-- Piwik -->
-    <script type="text/javascript">
-    var _paq = _paq || [];
-    _paq.push(['trackPageView']);
-    _paq.push(['enableLinkTracking']);
-    (function() {
-        var u="https://analytics.quantic-telecom.net/";
-        _paq.push(['setTrackerUrl', u+'piwik.php']);
-        _paq.push(['setSiteId', 4]);
-        var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-        g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
-    })();
-    </script>
-    <noscript><p><img src="//analytics.quantic-telecom.net/piwik.php?idsite=4" style="border:0;" alt="" /></p></noscript>
-    <!-- End Piwik Code -->
 </body>
 </html>

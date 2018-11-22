@@ -1,7 +1,14 @@
 {
-  "private": true,
-  "devDependencies": {},
-  "dependencies": {
-    "bulma": "^0.4.1"
-  }
+    "private": true,
+    "scripts": {
+        "watch": "NODE_ENV=development node_modules/webpack/bin/webpack.js --watch --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+        "prod": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
+    },
+    "dependencies": {
+        "laravel-mix": "^2.0",
+        "laravel-mix-purgecss": "^3.0.0",
+        "laravel-mix-tailwind": "^0.1.0",
+        "tailwindcss": "^0.7.0",
+        "typeface-merriweather": "0.0.54"
+    }
 }

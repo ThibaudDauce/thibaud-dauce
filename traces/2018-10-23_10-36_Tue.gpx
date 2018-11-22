@@ -1,0 +1,207 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<gpx version="1.1" creator="OsmAnd+" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>2018-10-23_10-36_Tue</name>
+  </metadata>
+  <trk>
+    <trkseg>
+      <trkpt lat="44.6952131" lon="5.4850857">
+        <ele>649.479</ele>
+        <time>2018-10-23T08:36:02Z</time>
+        <hdop>8</hdop>
+      </trkpt>
+      <trkpt lat="44.695504" lon="5.4848868">
+        <ele>778.411</ele>
+        <time>2018-10-23T08:40:18Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.883</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.6976435" lon="5.4853562">
+        <ele>707.894</ele>
+        <time>2018-10-23T08:45:18Z</time>
+        <hdop>12</hdop>
+        <extensions>
+          <speed>0.839</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.6983299" lon="5.4844285">
+        <ele>730.158</ele>
+        <time>2018-10-23T08:50:18Z</time>
+        <hdop>16</hdop>
+        <extensions>
+          <speed>0.35</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.6991476" lon="5.4835066">
+        <ele>750.232</ele>
+        <time>2018-10-23T08:58:40Z</time>
+        <hdop>6</hdop>
+        <extensions>
+          <speed>0.658</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.6996192" lon="5.4831849">
+        <ele>763.659</ele>
+        <time>2018-10-23T09:00:19Z</time>
+        <hdop>8</hdop>
+        <extensions>
+          <speed>0.978</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.7006318" lon="5.483444">
+        <ele>787.182</ele>
+        <time>2018-10-23T09:08:04Z</time>
+        <hdop>48</hdop>
+        <extensions>
+          <speed>0.531</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.7011881" lon="5.4836363">
+        <ele>833.348</ele>
+        <time>2018-10-23T09:12:49Z</time>
+        <hdop>16</hdop>
+        <extensions>
+          <speed>0.146</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.7013727" lon="5.4841725">
+        <ele>803.941</ele>
+        <time>2018-10-23T09:15:37Z</time>
+        <hdop>8</hdop>
+        <extensions>
+          <speed>0.284</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.7019768" lon="5.4838584">
+        <ele>847.033</ele>
+        <time>2018-10-23T09:20:18Z</time>
+        <hdop>24</hdop>
+        <extensions>
+          <speed>0.86</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.703536" lon="5.4849836">
+        <ele>866.786</ele>
+        <time>2018-10-23T09:27:59Z</time>
+        <hdop>16</hdop>
+        <extensions>
+          <speed>0.332</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.7040276" lon="5.4851966">
+        <ele>892.82</ele>
+        <time>2018-10-23T09:30:19Z</time>
+        <hdop>8</hdop>
+        <extensions>
+          <speed>0.761</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.704831" lon="5.4867926">
+        <ele>889.356</ele>
+        <time>2018-10-23T09:35:59Z</time>
+        <hdop>16</hdop>
+        <extensions>
+          <speed>2.024</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.7060938" lon="5.4877012">
+        <ele>943.419</ele>
+        <time>2018-10-23T09:40:19Z</time>
+        <hdop>24</hdop>
+        <extensions>
+          <speed>0.145</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.7064056" lon="5.4873406">
+        <ele>969.657</ele>
+        <time>2018-10-23T09:45:20Z</time>
+        <hdop>16</hdop>
+        <extensions>
+          <speed>0.869</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.707576" lon="5.4880578">
+        <ele>1014.723</ele>
+        <time>2018-10-23T09:50:19Z</time>
+        <hdop>48</hdop>
+        <extensions>
+          <speed>0.835</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.7084951" lon="5.4871209">
+        <ele>1024.652</ele>
+        <time>2018-10-23T09:55:19Z</time>
+        <hdop>8</hdop>
+        <extensions>
+          <speed>1.096</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.7082183" lon="5.4857597">
+        <ele>1049.427</ele>
+        <time>2018-10-23T10:00:20Z</time>
+        <hdop>24</hdop>
+        <extensions>
+          <speed>0.697</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.7083459" lon="5.4842789">
+        <ele>1053.604</ele>
+        <time>2018-10-23T10:05:20Z</time>
+        <hdop>12</hdop>
+        <extensions>
+          <speed>0.261</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.7093754" lon="5.4861395">
+        <ele>1115.449</ele>
+        <time>2018-10-23T10:10:19Z</time>
+        <hdop>8</hdop>
+        <extensions>
+          <speed>1.715</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.7099649" lon="5.4848327">
+        <ele>1165.371</ele>
+        <time>2018-10-23T10:15:37Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.666</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.7107627" lon="5.4857295">
+        <ele>1161.942</ele>
+        <time>2018-10-23T10:20:19Z</time>
+        <hdop>8</hdop>
+        <extensions>
+          <speed>0.525</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.7107209" lon="5.4855566">
+        <ele>1162.894</ele>
+        <time>2018-10-23T10:25:18Z</time>
+        <hdop>16</hdop>
+        <extensions>
+          <speed>0.318</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.7115" lon="5.4867031">
+        <ele>1201.143</ele>
+        <time>2018-10-23T10:30:19Z</time>
+        <hdop>12</hdop>
+        <extensions>
+          <speed>0.536</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="44.7116487" lon="5.4869965">
+        <ele>1218.043</ele>
+        <time>2018-10-23T10:31:54Z</time>
+        <hdop>16</hdop>
+        <extensions>
+          <speed>0.167</speed>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
