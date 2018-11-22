@@ -4,8 +4,21 @@
     <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Thibaud's blog</title>
+    <title>$title$$if(subtitle)$ – $subtitle$$endif$</title>
     <link rel="stylesheet" href="/css/app.css"/>
+
+    <link rel="alternate" type="application/rss+xml" title="Thibaud Dauce's blog" href="/feed.xml">
+    <link rel="alternate" type="application/atom+xml" title="Thibaud Dauce's blog" href="/atom.xml">
+    <link rel="shortcut icon" href="/images/favicon.png">
+
+    <meta property="og:title" content="$title$$if(subtitle)$ – $subtitle$$endif$">
+    <meta property="og:url" content="https://thibaud.dauce.fr$url$">
+
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@ThibaudDauce" />
+    $if(description)$
+        <meta property="og:description" content="$description$">
+    $endif
 </head>
 <body class="overflow-x-hidden bg-grey-lightest text-black font-serif leading-normal min-h-screen flex flex-col">
     <header class="container py-12">
