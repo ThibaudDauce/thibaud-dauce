@@ -17,6 +17,9 @@ body {
 .content div.sourceCode {
    @apply -mx-8 px-8 py-4 leading-loose bg-solarized;
 }
+.content div.sourceCode .sourceLine {
+   @apply pr-4
+}
 /* 
 .content pre {
    @apply -mx-8 bg-solarized;
