@@ -25,7 +25,7 @@ body {
    @apply px-8 py-4 overflow-x-auto;
 } */
 .content p code {
-   @apply bg-solarized px-2 py-1;
+   @apply bg-solarized text-grey-darkest px-2 py-1;
 }
 
 .content video, .content figure {
