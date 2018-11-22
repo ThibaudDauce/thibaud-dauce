@@ -7,7 +7,7 @@ What's UX? UX stands for User Experience. It refers to "a person's emotions and 
 
 <!--more-->
 
-## Twitter
+### Twitter
 
 I'll start with [Twitter](https://twitter.com/ThibaudDauce). First of all, I'm a big fan of the service and I use it a lot. Especially for *favorites* (now *likes*). I follow a lot of people and I favorite a lot of articles as a read-it-later. I don't tweet much, and most of the time, I just scroll my timeline and favorite everything seems interesting.
 
@@ -17,7 +17,7 @@ What happens when I scroll my timeline and click on some tweets. More informatio
   Your browser doesn't support HTML5 videos, go check <a href="/posts/2015-11-07-live-without-flash.html">my blog post</a>
 </video>
 
-## DuckDuckGo
+### DuckDuckGo
 
 
 I'm using [DuckDuckGo](https://duckduckgo.com/) every
@@ -29,7 +29,7 @@ Do you know *Instant answers* from Google? DuckDuckGo has that too. But instead 
   Your browser doesn't support HTML5 videos, go check <a href="/posts/2015-11-07-live-without-flash.html">my blog post</a>
 </video>
 
-## Online.net
+### Online.net
 
 [Online.net](https://www.online.net/en) is a famous hosting company in France. They tried to improve their website with a modern look. But they just created an awful user experience.
 
@@ -39,6 +39,6 @@ The *Starting at €5.99 / month* text looks really like a button. But when I wa
   Your browser doesn't support HTML5 videos, go check <a href="/posts/2015-11-07-live-without-flash.html">my blog post</a>
 </video>
 
-## Conclusion
+### Conclusion
 
 If you don't want to confuse your users, please don't move elements of your page. In case of an asynchronous request, save the space right at the beginning. And if you really have to move an element, make the animation not too fast for the user to understand what's happening.

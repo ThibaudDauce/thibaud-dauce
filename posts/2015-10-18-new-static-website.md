@@ -10,7 +10,7 @@ Why switch from PHP and [Laravel](https://laravel.com) to just HTML files? Why a
 
 <!--more-->
 
-## Why a static website generator?
+### Why a static website generator?
 
 Because, to quote [the Hakyll website](http://jaspervdj.be/hakyll/):
 
@@ -26,7 +26,7 @@ But, if HTML files are so cool, why don't just use HTML files? Generators brings
 - Create a dynamic index for all your posts (with a summary), an archive page and a RSS / Atom feed.
 - Write in [Markdown](https://daringfireball.net/projects/markdown/) instead of HTML, it's a bit easier and it's always possible to add HTML tags in your posts for specific information.
 
-## How is it working?
+### How is it working?
 
 As I said, I'm using [Hakyll](http://jaspervdj.be/hakyll/). It's develop with [Haskell](https://www.haskell.org/) but every language has a static site generator available: [Pelican](https://github.com/getpelican/pelican/) in Python, [Jekyll](http://jekyllrb.com/) in Ruby, [Sculpin](https://sculpin.io/) in PHP…
 
@@ -36,7 +36,7 @@ After developing the main Haskell file, I just run `stack build` once to compile
 
 I write Markdown compiled in HTML thanks to the great [Pandoc](http://pandoc.org/) library. I use an HTML comment `<!--more-->` to create a « teaser » field. And I also can use HTML to add font awesome character for example like `<i class="fa fa-smile-o"></i>`. All of the code is on [Github](https://github.com/ThibaudDauce/thibaud-dauce), and I'm open to contributions <i class="fa fa-smile-o"></i>.
 
-## What's remaining to do?
+### What's remaining to do?
 
 This is a first quick version of my Hakyll website, a lot is remaining:
 

@@ -8,7 +8,7 @@ It's been a few weeks since a set a AAAA record for my domain name and allow IPv
 
 <!--more-->
 
-## IPv6
+### IPv6
 
 I'm the co-founder of Quantic Telecom, an operator and ISP for student in Rouen, France and I can tell you, IPv4 is dead! We really need IPv6, and not 3 years from now, today! So, change your VPS provider if you don't have an IPv6, set your AAAA DNS records and listen it:
 ```
@@ -17,9 +17,9 @@ listen [::]:443;
 
 ![IPv6 is the most recent version of the Internet Protocol](/images/ipv6.png)
 
-## HTTPS everywhere
+### HTTPS everywhere
 
-### Generate certificates
+#### Generate certificates
 
 With [Let's Encrypt](https://letsencrypt.org/), certificates are now free for everyone. So no excuse, just set up HTTPS (and HTTPS only). I first use the Let's Encrypt Python script but today I switch to an unofficial bash implementation of the free (as in free speech) Let's Encrypt protocol: [Neilpang/le](https://github.com/Neilpang/le). If you want to set up HTTPS on your server, just type:
 ```bash
@@ -31,7 +31,7 @@ le issue /var/www/html/ thibaud.dauce.fr thibaud-dauce.fr,www.thibaud-dauce.fr e
 le installcert thibaud.dauce.fr /etc/nginx/cert.pem  /etc/nginx/cert.key /etc/nginx/ca.crt "cp /etc/nginx/cert.pem /etc/nginx/fullchain.pem && cat /etc/nginx/ca.crt >> /etc/nginx/fullchain.pem && service nginx reload"
 ```
 
-### Use them with Nginx
+#### Use them with Nginx
 
 ![Nging webserver](/images/nginx.svg)
 
@@ -41,7 +41,7 @@ ssl_certificate_key     /etc/nginx/cert.key;
 ssl_client_certificate  /etc/nginx/ca.crt;
 ```
 
-### Secure SSL
+#### Secure SSL
 
 ```bash
 ssl_protocols              TLSv1 TLSv1.1 TLSv1.2;
@@ -52,7 +52,7 @@ ssl_ciphers                "EECDH+AES:+AES128:+AES256:+SHA";
 add_header Strict-Transport-Security "max-age=31536000; includeSubDomains";
 ```
 
-### Why did I switch from Apache?
+#### Why did I switch from Apache?
 
 ![Apache is losing the web to Nginx ([source](http://www.nextplatform.com/2016/02/24/how-apache-is-losing-the-web-to-nginx/))](/images/nginx-apache.jpg)
 
@@ -108,7 +108,7 @@ But then you should get an A+ [on every existing SSL test](https://tls.imirhil.f
 
 ![CryptCheck](/images/cryptcheck.png)
 
-## HTTP/2.0
+### HTTP/2.0
 
 As you can see in the previous config files, I simply add `http2` at the end of my `listen` line. It's really just that with Nginx 1.9. If you run a Debian 8 as I do, add these deb repositories to get the last version:
 ```bash

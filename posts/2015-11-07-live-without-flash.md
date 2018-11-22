@@ -12,7 +12,7 @@ What can we do?
 
 ![The future is HTML5](/images/html5.png)
 
-## First, Firefox configuration
+### First, Firefox configuration
 
 Firefox is the best browser, not because its performances are better, but because Gecko is an alternative to Webkit (the layout engine software component for rendering web pages in Chrome, Chromium, Safari and Opera). If we don't want Google to be the new Internet Explorer, we need to fight for diversity in rendering engines.
 
@@ -28,11 +28,11 @@ With Arch Linux, I think you should install `gst-plugins-good` and `gst-libav` t
 
 Now you can watch HTML5 videos with Firefox in every website.
 
-## Then some trick for old Flash websites
+### Then some trick for old Flash websites
 
 I use two CLI tools to watch Flash videos: `youtube-dl` and `livestreamer`.
 
-### youtube-dl
+#### youtube-dl
 
 To install `youtube-dl`, visit [their website](https://rg3.github.io/youtube-dl/). Or if you're using Arch Linux, just run `yaourt -S youtube-dl`. This little piece of software allows you to download YouTube videos but not only. You can list all available websites with `youtube-dl --list-extractors`. To use it:
 ```bash
@@ -41,7 +41,7 @@ youtube-dl link-to-your-video
 
 You can also download YouTube play lists, pages, etc. There are a lot of options like `--write-all-thumbnails` or `--write-subs`. Just check the man page, everything is explained.
 
-### Livestreamer
+#### Livestreamer
 
 Same as `youtube-dl`, for the installation, just go to [their website](https://github.com/chrippa/livestreamer). With Arch Linux, run `yaourt -S livestreamer`. The problem with `youtube-dl` is you can't watch the video being downloaded because it downloads the video and the audio separately. With `livestreamer` you can stream a video from a lot of websites (`livestreamer --plugins`). To use it:
 ```bash
@@ -50,7 +50,7 @@ livestreamer -p vlc link-to-your-video best
 
 I used a lot `livestreamer` with my old computer because VLC is way better than HTML5 to decode 1080p videos. I also use it with Twitch streams.
 
-### Last trick
+#### Last trick
 
 I often watch AlloCiné, a french website which provides information on French cinema. They have a Flash video player and neither `youtube-dl` nor `livestreamer` support it. With the plugin Greasemonkey on Firefox, I use the script [AlloCine_Zap](http://userscripts-mirror.org/scripts/show/59373) to watch videos as HTML5 (and remove adds ^^).
 

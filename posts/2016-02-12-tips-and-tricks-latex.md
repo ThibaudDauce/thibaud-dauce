@@ -8,11 +8,11 @@ In [my previous blog post](/posts/2015-12-06-write-well-formed-documents-with-la
 
 <!--more-->
 
-## Title page
+### Title page
 
 Create a title page with LaTeX could scare you but I realized that with the awesome LaTeX documentation, it was really easy to customize the title page. Just check [this wiki page](https://en.wikibooks.org/wiki/LaTeX/Title_Creation) and it should explain everything to you.
 
-## White spaces!
+### White spaces!
 
 ![An ugly and compact document with a lot of text](/images/latex-compact.jpg)
 
@@ -27,7 +27,7 @@ The main drawback of this solution is that the table of content is using paragra
 
 ![A document with a lot of text but more white spaces. Better!](/images/latex-blank.jpg)
 
-## Automatic compilation work flow
+### Automatic compilation work flow
 
 * Save file
 * Switch desktop to Okular
@@ -58,7 +58,7 @@ And here is my new work flow:
 
 Much better!
 
-## GitLab CI
+### GitLab CI
 
 I'm a big fan of GitLab, did you know that you can have as many private repositories as you want in [GitLab.com](https://gitlab.com/users/sign_in)?
 
@@ -87,7 +87,7 @@ Of course, to use GitLab CI you need to deploy a GitLab CI runner with LaTeX ins
   apt: name=texlive-full state=latest
 ```
 
-## A few more tips
+### A few more tips
 
 Use `\graphicspath{{images/}}` to set the root folder of all your graphics.
 

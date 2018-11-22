@@ -1,13 +1,10 @@
 @tailwind preflight;
 
-body {
-   font-size: 20px;
-}
 
 .content p, .content ul, .content ol, .content div.sourceCode, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .content video, .content figure {
    @apply mb-3;
 }
-.content h2 {
+.content h3 {
    @apply mt-10;
 }
 
@@ -18,7 +15,7 @@ body {
    @apply -mx-8 px-8 py-4 leading-loose bg-solarized;
 }
 .content div.sourceCode .sourceLine {
-   @apply pr-4
+   @apply pr-8
 }
 /* 
 .content pre {
@@ -44,6 +41,15 @@ body {
 @tailwind components;
 
 @tailwind utilities;
+
+body {
+   font-size: 18px;
+}
+@screen sm {
+   body {
+      font-size: 20px;
+   }
+}
 
 @import "./syntax.css";
 @import "../node_modules/typeface-merriweather/index.css";

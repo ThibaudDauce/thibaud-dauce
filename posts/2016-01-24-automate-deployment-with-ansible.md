@@ -8,7 +8,7 @@ It's been a while since I wrote my last blog post. Today, I want to share with y
 
 <!--more-->
 
-## Why using Ansible?
+### Why using Ansible?
 
 ![Ansible is simple IT automation](/images/ansible.png)
 
@@ -16,7 +16,7 @@ There is a lot of reasons to use Ansible for your deployments or any other tool 
 
 In fact, as soon as you start having a documentation explaining how to create and configure new machines with some code to copy paste, I think you need to look into some deployment tools like Ansible.
 
-## Why I like Ansible
+### Why I like Ansible
 
 Ansible is state-driven, it means that everything in your scripts will be link to state (if you do your job correctly). For example, instead of saying: "I want to install texlive-full", you will say: "I want the package texlive-full to be installed". It changes everything, this feature allows you to run your scripts multiple times without to worry about bad changes. The first time Ansible will check if texlive-full is installed and will install it if it's not. Then, the next times, it will show you that everything is already good to go. Moreover, it's really fast to run.
 
@@ -42,13 +42,13 @@ In this example, I use the "user" Core Module and the "authorized_key" Core Modu
 
 Last thing important with Ansible, it's only text so you can easily use Git to keep version control. We use a lot Proxmox and templates for containers and it's hard to keep track of the changes for several hundreds MBs images. With Ansible, everything can be saved within a few kBs.
 
-## What I dislike with Ansible
+### What I dislike with Ansible
 
 The first time I open the documentation, I had trouble finding a good way to start. By default, Ansible read a weird `/etc/ansible` for the roles. I don't know who is using this and why but, for me, it shouldn't be the default. Everyone should have an ansible directory with their roles and their hosts and Ansible should throw an error if it can't detect any of this.
 
 I also try to use roles build by the community, and I found two kinds of roles : the easy ones and the over engineered ones. Due to the lack of package manager, I preferred to code the easy ones from scratch, because it's easier to manage than to have to add in the documentation to download these roles. And for the complex ones, I had troubles make them work with my system so I just develop my owns.
 
-## Conclusion
+### Conclusion
 
 Go get [Ansible](http://www.ansible.com/)! :-)
 ```bash

@@ -12,7 +12,7 @@ I don't want all these features, I just want the tweets of people I follow in ch
 
 ![RSS, the perfect alternative to Twitter](/images/rss.png)
 
-## Add an RSS feed in Hakyll
+### Add an RSS feed in Hakyll
 
 It's a really simple operation, everything is explained [here](http://jaspervdj.be/hakyll/tutorials/05-snapshots-feeds.html). In the tutorial, they explain how to render either an Atom or an RSS feed. I decided to provide both. To do that, I've created a small function named `createFeed`.
 
@@ -47,7 +47,7 @@ createFeed "feed.xml" renderRss
 createFeed "atom.xml" renderAtom
 ```
 
-## The HTML part
+### The HTML part
 
 To make my feeds work with most of the aggregators, I need to add two `links` to my default template.
 
@@ -56,7 +56,7 @@ To make my feeds work with most of the aggregators, I need to add two `links` to
 <link rel="alternate" type="application/atom+xml" title="Thibaud Dauce's blog" href="./atom.xml">
 ```
 
-## Which reader
+### Which reader
 
 I personally use [FreshRSS](http://freshrss.org/). It's a simple, self-hostable aggregator under the AGPL license. The installation is really simple and there is a lot of useful features (like keyboard shortcuts and integration with [Wallabag](https://www.wallabag.org/))
 
