@@ -23,7 +23,9 @@
 <body class="overflow-x-hidden bg-grey-lightest text-black font-serif leading-normal min-h-screen flex flex-col">
     <header class="container py-6 sm:py-12">
         $if(subtitle)$
-        <h2 class="text-lg sm:text-xl font-normal mb-2">$subtitle$</h2>
+        <h2 class="text-lg sm:text-xl font-normal mb-2">
+            <a href="/" class="no-underline text-black">$subtitle$</a>
+        </h2>
         $endif$
         <h1 class="text-2xl sm:text-4xl font-normal mb-4">$title$</h1>
         <nav class="flex items-center">
