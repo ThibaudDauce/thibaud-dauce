@@ -99,7 +99,7 @@ class Customer {
 
 If I add a new type and I change my enumerate definition in one place `new Pattern([self::STUDENT, self::INDIVIDUAL, self::COMPANY])`, my previous tests are now failing with a new exception:
 
-```
+```html
 MissingPatternsDuringMatch: 'company' was missing during the match.
 Expected patterns were 'student', 'individual', 'company' and received patterns were 'student', 'individual'.
 ```
