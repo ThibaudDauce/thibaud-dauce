@@ -1,13 +1,16 @@
 @tailwind preflight;
 
+.container {
+   max-width: 900px;
+   @apply w-full mx-auto
+}
 
 .content p, .content ul, .content ol, .content div.sourceCode, .content h1, .content h2, .content h3, .content h4, .content h5, .content h6, .content video, .content figure {
-   @apply mb-3;
+   @apply mb-8;
 }
 .content h3 {
-   @apply mt-10;
+   @apply mt-16;
 }
-
 .content a {
    @apply text-indigo-dark;
 }

@@ -2,13 +2,13 @@
     $for(recents)$
     <div class="mb-16">
         <h2 class="text-xl sm:text-2xl mb-4 -pt-1 flex flex-col sm:flex-row justify-between sm:items-baseline">
-            <a href="$url$" class="mb-2 sm:mb-0 text-indigo-dark">$title$</a>
+            <a href="$url$" class="mb-2 sm:mb-0 no-underline hover:underline text-grey-darkest">$title$</a>
             <span class="text-base text-grey-dark whitespace-no-wrap">$date$</span>
         </h2>
         
         <div class="content">
-            $if(teaser)$
-                $teaser$
+            $if(description)$
+                $description$
             $endif$
         </div>
     </div>
@@ -16,7 +16,7 @@
     $for(olds)$
     <div class="mb-16">
         <h2 class="text-xl sm:text-2xl mb-4 -pt-1 flex flex-col sm:flex-row justify-between">
-            <a href="$url$" class="text-indigo-dark">$title$</a>
+            <a href="$url$" class="no-underline hover:underline text-grey-darkest">$title$</a>
             <span class="text-base text-grey-dark whitespace-no-wrap">$date$</span>
         </h2>
     </div>
