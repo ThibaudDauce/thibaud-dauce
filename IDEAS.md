@@ -1,0 +1,5 @@
+- Greasemonkey (Twitter / Pocket)
+- Setup (typematrix, standing desk, desktop shortcuts)
+- Analyse with Rust Nginx logs
+- Teaching computer science (too short trainings, no basics…)
+- Choosing JS over VueJS
