@@ -4,3 +4,4 @@
 - Teaching computer science (too short trainings, no basics…)
 - Choosing JS over VueJS
 - Create an RSS feed with Laravel
+- Webserver with ArchLinux
