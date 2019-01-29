@@ -9,17 +9,19 @@ This is [my personal website](https://thibaud.dauce.fr) with [Hakyll](http://jas
 You need to install the [`stack` build tool](https://github.com/commercialhaskell/stack) first. See [the official documentation](https://github.com/commercialhaskell/stack/blob/release/doc/install_and_upgrade.md) for installation instructions.
 
 On Arch Linux, just run:
+
 ```bash
 pacman -S stack
 ```
 
-### Sass
+### Front-end
 
-I'm using [libsass](http://sass-lang.com/libsass) to compile my CSS. For installation instruction, go to https://github.com/sass/libsass.
+I'm using [Laravel Mix](https://laravel-mix.com/) to compile my CSS. You'll need NPM to run the scripts.
 
 On Arch Linux, just run:
+
 ```bash
-pacman -S sassc
+pacman -S nodejs
 ```
 
 ## Installation
@@ -44,6 +46,7 @@ stack exec thibaud build
 ### Haskell modification
 
 Each time you modify the Haskell files, you need to rebuild the executable with:
+
 ```bash
 stack build
 ```
@@ -51,6 +54,7 @@ stack build
 ### Posts' creations and modifications
 
 To start with a clean installation, run:
+
 ```bash
 stack exec thibaud rebuild
 ```
@@ -58,8 +62,9 @@ stack exec thibaud rebuild
 This command will clean the `_site` folder and rebuild all the website.
 
 Then run the web server with:
+
 ```bash
 stack exec thibaud watch
 ```
 
-This command will trigger a rebuild each time a file is changed. To rebuild the CSS after a change in a `.scss` file, you need to trigger a rebuild manually with `stack exec thibaud rebuild`.
+This command will trigger a rebuild each time a file is changed. To rebuild the CSS after a change, you'll need to run `npm run watch`.
