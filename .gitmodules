@@ -13,3 +13,6 @@
 [submodule "talks/orleans-tech-programmation-fonctionnelle"]
 	path = talks/orleans-tech-programmation-fonctionnelle
 	url = git@framagit.org:ThibaudDauce/orleans-tech-programmation-fonctionnelle
+[submodule "talks/afup-tours-programmation-fonctionnelle"]
+	path = talks/afup-tours-programmation-fonctionnelle
+	url = git@gitlab.com:thibauddauce/afup-tours-programmation-fonctionnelle.git
