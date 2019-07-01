@@ -5,9 +5,9 @@
         "prod": "NODE_ENV=production node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
     },
     "dependencies": {
-        "laravel-mix": "^4.0",
-        "laravel-mix-purgecss": "^4.0.0",
-        "tailwindcss": "^0.7.3",
+        "laravel-mix": "^4.0.16",
+        "laravel-mix-purgecss": "^4.1.0",
+        "tailwindcss": "^0.7.4",
         "typeface-merriweather": "0.0.54"
     }
 }
