@@ -16,3 +16,6 @@
 [submodule "talks/afup-tours-programmation-fonctionnelle"]
 	path = talks/afup-tours-programmation-fonctionnelle
 	url = git@gitlab.com:thibauddauce/afup-tours-programmation-fonctionnelle.git
+[submodule "talks/orleans-tech-conf-informatique-complexite-ecologie"]
+	path = talks/orleans-tech-conf-informatique-complexite-ecologie
+	url = git@gitlab.com:thibauddauce/orleans-tech-conf-informatique-complexite-ecologie.git
