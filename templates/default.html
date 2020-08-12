@@ -20,8 +20,8 @@
         <meta property="og:description" content="$description$">
     $endif$
 </head>
-<body class="overflow-x-hidden bg-grey-lightest text-black font-serif leading-normal min-h-screen flex flex-col px-4">
-    <header class="container py-6 sm:py-12">
+<body class="overflow-x-hidden bg-grey-lightest text-black font-serif leading-normal min-h-screen flex flex-col">
+    <header class="container py-6 sm:py-12 px-4">
         $if(subtitle)$
         <h2 class="text-lg sm:text-xl font-normal mb-2">
             <a href="/" class="no-underline text-black">$subtitle$</a>
@@ -63,7 +63,7 @@
     
     $body$
     
-    <footer class="container text-center py-12 mt-12 text-base text-grey-darker">
+    <footer class="container text-center px-4 py-12 mt-12 text-base text-grey-darker">
         <p>
             This blog is powered by <a href="http://jaspervdj.be/hakyll/" class="text-indigo">Hakyll</a>. If you find an error or a typo, <a href="https://github.com/ThibaudDauce/thibaud-dauce/blob/master/$path$" class="text-indigo">please contribute on Github!</a>
         </p>

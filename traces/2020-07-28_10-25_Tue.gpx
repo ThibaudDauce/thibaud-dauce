@@ -1,0 +1,2167 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<gpx version="1.1" creator="OsmAnd+ 3.7.4" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+  <metadata>
+    <name>2020-07-28_10-25_Tue</name>
+  </metadata>
+  <trk>
+    <trkseg>
+      <trkpt lat="45.6365178" lon="5.9647752">
+        <ele>1460.308</ele>
+        <time>2020-07-28T08:25:02Z</time>
+        <hdop>4</hdop>
+      </trkpt>
+      <trkpt lat="45.6365448" lon="5.9647171">
+        <ele>1463.758</ele>
+        <time>2020-07-28T08:26:37Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.713</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6365798" lon="5.9646698">
+        <ele>1462.649</ele>
+        <time>2020-07-28T08:26:53Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.184</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6365318" lon="5.9646347">
+        <ele>1462.026</ele>
+        <time>2020-07-28T08:27:11Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.249</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6364614" lon="5.9646208">
+        <ele>1461.991</ele>
+        <time>2020-07-28T08:27:27Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.48</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6363488" lon="5.9646819">
+        <ele>1462.177</ele>
+        <time>2020-07-28T08:27:43Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.904</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6362398" lon="5.9647485">
+        <ele>1462.324</ele>
+        <time>2020-07-28T08:27:58Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.863</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.636152" lon="5.9648669">
+        <ele>1462.24</ele>
+        <time>2020-07-28T08:28:13Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.982</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6360573" lon="5.9649543">
+        <ele>1463.157</ele>
+        <time>2020-07-28T08:28:29Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.665</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6359438" lon="5.9649942">
+        <ele>1464.195</ele>
+        <time>2020-07-28T08:28:45Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.778</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6358584" lon="5.9650232">
+        <ele>1465.239</ele>
+        <time>2020-07-28T08:29:00Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>1.021</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6358036" lon="5.9650635">
+        <ele>1465.532</ele>
+        <time>2020-07-28T08:29:16Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.541</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6356796" lon="5.9651203">
+        <ele>1466.258</ele>
+        <time>2020-07-28T08:29:32Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.908</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6355818" lon="5.9652264">
+        <ele>1466.93</ele>
+        <time>2020-07-28T08:29:48Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.837</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6354755" lon="5.9653061">
+        <ele>1467.554</ele>
+        <time>2020-07-28T08:30:04Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.795</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.635377" lon="5.9653838">
+        <ele>1468.768</ele>
+        <time>2020-07-28T08:30:19Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.861</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.635277" lon="5.9654655">
+        <ele>1470.68</ele>
+        <time>2020-07-28T08:30:35Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.862</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6351866" lon="5.965565">
+        <ele>1472.881</ele>
+        <time>2020-07-28T08:30:51Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.825</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6351064" lon="5.9656555">
+        <ele>1474.253</ele>
+        <time>2020-07-28T08:31:07Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.81</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6350163" lon="5.9657482">
+        <ele>1476.001</ele>
+        <time>2020-07-28T08:31:23Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.808</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6349676" lon="5.9658206">
+        <ele>1477.253</ele>
+        <time>2020-07-28T08:31:39Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.593</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6348897" lon="5.9658848">
+        <ele>1478.896</ele>
+        <time>2020-07-28T08:31:55Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.691</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6348191" lon="5.9659444">
+        <ele>1480.622</ele>
+        <time>2020-07-28T08:32:11Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.608</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6347507" lon="5.9660328">
+        <ele>1482.073</ele>
+        <time>2020-07-28T08:32:26Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.474</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6346804" lon="5.9661148">
+        <ele>1483.191</ele>
+        <time>2020-07-28T08:32:42Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.346</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6345901" lon="5.9661542">
+        <ele>1484.644</ele>
+        <time>2020-07-28T08:32:57Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.597</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6345109" lon="5.9662247">
+        <ele>1486.556</ele>
+        <time>2020-07-28T08:33:13Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.737</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6344439" lon="5.9662981">
+        <ele>1488.673</ele>
+        <time>2020-07-28T08:33:28Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.471</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6343551" lon="5.9663732">
+        <ele>1491.492</ele>
+        <time>2020-07-28T08:33:44Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.713</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6342717" lon="5.9664071">
+        <ele>1494.532</ele>
+        <time>2020-07-28T08:33:59Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.965</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6341776" lon="5.9663666">
+        <ele>1497.004</ele>
+        <time>2020-07-28T08:34:14Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.946</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6340993" lon="5.9663017">
+        <ele>1498.811</ele>
+        <time>2020-07-28T08:34:30Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.587</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6340208" lon="5.9662213">
+        <ele>1500.543</ele>
+        <time>2020-07-28T08:34:46Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.556</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6339103" lon="5.9661734">
+        <ele>1502.017</ele>
+        <time>2020-07-28T08:35:01Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.811</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6337728" lon="5.9661414">
+        <ele>1504.167</ele>
+        <time>2020-07-28T08:35:17Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.944</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6336202" lon="5.9661225">
+        <ele>1505.805</ele>
+        <time>2020-07-28T08:35:32Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.982</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6334694" lon="5.9661205">
+        <ele>1507.157</ele>
+        <time>2020-07-28T08:35:47Z</time>
+        <hdop>16</hdop>
+        <extensions>
+          <speed>1.082</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6333114" lon="5.9661319">
+        <ele>1508.178</ele>
+        <time>2020-07-28T08:36:03Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.986</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.633161" lon="5.9661646">
+        <ele>1509.25</ele>
+        <time>2020-07-28T08:36:19Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>1.016</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6330341" lon="5.9662164">
+        <ele>1510.64</ele>
+        <time>2020-07-28T08:36:35Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>1.082</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6329081" lon="5.9662564">
+        <ele>1512.03</ele>
+        <time>2020-07-28T08:36:50Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.93</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6327743" lon="5.9663255">
+        <ele>1513.749</ele>
+        <time>2020-07-28T08:37:06Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.813</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.632634" lon="5.9664165">
+        <ele>1516.047</ele>
+        <time>2020-07-28T08:37:22Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.921</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6325098" lon="5.9665246">
+        <ele>1518.047</ele>
+        <time>2020-07-28T08:37:38Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.997</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6323883" lon="5.9665831">
+        <ele>1519.765</ele>
+        <time>2020-07-28T08:37:53Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.936</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6322668" lon="5.9666417">
+        <ele>1521.276</ele>
+        <time>2020-07-28T08:38:09Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.77</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.632163" lon="5.9666917">
+        <ele>1522.631</ele>
+        <time>2020-07-28T08:38:24Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.781</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6320658" lon="5.9667204">
+        <ele>1524.273</ele>
+        <time>2020-07-28T08:38:40Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.595</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6319717" lon="5.9667518">
+        <ele>1525.718</ele>
+        <time>2020-07-28T08:38:55Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.768</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6318843" lon="5.9668156">
+        <ele>1527.4</ele>
+        <time>2020-07-28T08:39:11Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.582</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.631766" lon="5.9668959">
+        <ele>1529.486</ele>
+        <time>2020-07-28T08:39:27Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.707</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6316518" lon="5.9669572">
+        <ele>1531.122</ele>
+        <time>2020-07-28T08:39:43Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.736</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6315634" lon="5.9670546">
+        <ele>1532.918</ele>
+        <time>2020-07-28T08:39:58Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.753</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6314684" lon="5.9671227">
+        <ele>1534.725</ele>
+        <time>2020-07-28T08:40:14Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.775</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.631341" lon="5.9671339">
+        <ele>1536.711</ele>
+        <time>2020-07-28T08:40:30Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.819</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.631229" lon="5.9671243">
+        <ele>1538.389</ele>
+        <time>2020-07-28T08:40:45Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.782</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6311123" lon="5.9670752">
+        <ele>1541.091</ele>
+        <time>2020-07-28T08:41:00Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.557</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6310111" lon="5.9670169">
+        <ele>1543.576</ele>
+        <time>2020-07-28T08:41:16Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.756</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6308932" lon="5.9669526">
+        <ele>1545.697</ele>
+        <time>2020-07-28T08:41:32Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.774</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6307707" lon="5.9669639">
+        <ele>1548.075</ele>
+        <time>2020-07-28T08:41:48Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.833</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6307617" lon="5.9670323">
+        <ele>1550.671</ele>
+        <time>2020-07-28T08:43:30Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.562</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6307607" lon="5.967183">
+        <ele>1550.575</ele>
+        <time>2020-07-28T08:43:46Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.673</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6307486" lon="5.9673349">
+        <ele>1550.832</ele>
+        <time>2020-07-28T08:44:01Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.844</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6307257" lon="5.9675116">
+        <ele>1551.304</ele>
+        <time>2020-07-28T08:44:16Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.908</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6307194" lon="5.9676945">
+        <ele>1551.931</ele>
+        <time>2020-07-28T08:44:31Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.884</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6307061" lon="5.9678799">
+        <ele>1552.335</ele>
+        <time>2020-07-28T08:44:47Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.892</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6306922" lon="5.9680507">
+        <ele>1553.664</ele>
+        <time>2020-07-28T08:45:03Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.866</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6306764" lon="5.9681913">
+        <ele>1555.49</ele>
+        <time>2020-07-28T08:45:19Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.774</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6306665" lon="5.9683289">
+        <ele>1556.991</ele>
+        <time>2020-07-28T08:45:34Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.652</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6306585" lon="5.9685084">
+        <ele>1558.181</ele>
+        <time>2020-07-28T08:45:50Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.756</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6306079" lon="5.9686644">
+        <ele>1559.659</ele>
+        <time>2020-07-28T08:46:06Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.813</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6305335" lon="5.9687876">
+        <ele>1561.474</ele>
+        <time>2020-07-28T08:46:21Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.784</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6304506" lon="5.968849">
+        <ele>1563.242</ele>
+        <time>2020-07-28T08:46:36Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.709</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6303575" lon="5.968902">
+        <ele>1565.84</ele>
+        <time>2020-07-28T08:46:52Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.71</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6303157" lon="5.9689932">
+        <ele>1567.371</ele>
+        <time>2020-07-28T08:47:08Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.014</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6302642" lon="5.9689848">
+        <ele>1569.491</ele>
+        <time>2020-07-28T08:48:20Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.923</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.630135" lon="5.968962">
+        <ele>1571.031</ele>
+        <time>2020-07-28T08:48:35Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.584</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6300736" lon="5.9689588">
+        <ele>1573.199</ele>
+        <time>2020-07-28T08:48:50Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.399</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.630026" lon="5.9689541">
+        <ele>1574.82</ele>
+        <time>2020-07-28T08:49:05Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.346</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6299669" lon="5.9689874">
+        <ele>1576.04</ele>
+        <time>2020-07-28T08:49:21Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.022</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6299156" lon="5.9690262">
+        <ele>1578.193</ele>
+        <time>2020-07-28T08:49:37Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.314</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6298637" lon="5.9690672">
+        <ele>1579.791</ele>
+        <time>2020-07-28T08:49:53Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.546</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6298543" lon="5.969135">
+        <ele>1582.324</ele>
+        <time>2020-07-28T08:50:19Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.053</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6298085" lon="5.969139">
+        <ele>1584.975</ele>
+        <time>2020-07-28T08:50:43Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.334</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6297336" lon="5.9690947">
+        <ele>1587.95</ele>
+        <time>2020-07-28T08:50:59Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.397</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6296481" lon="5.9690961">
+        <ele>1590.634</ele>
+        <time>2020-07-28T08:51:15Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.398</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6295718" lon="5.9690989">
+        <ele>1591.975</ele>
+        <time>2020-07-28T08:51:31Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.392</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.629538" lon="5.9691481">
+        <ele>1593.426</ele>
+        <time>2020-07-28T08:51:47Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.531</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6294908" lon="5.9691605">
+        <ele>1595.267</ele>
+        <time>2020-07-28T08:52:03Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.582</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6294527" lon="5.9692033">
+        <ele>1596.263</ele>
+        <time>2020-07-28T08:52:18Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.017</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6294468" lon="5.9692684">
+        <ele>1602.072</ele>
+        <time>2020-07-28T08:56:31Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.5</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6294002" lon="5.9693207">
+        <ele>1603.17</ele>
+        <time>2020-07-28T08:56:46Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.216</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.629379" lon="5.9693838">
+        <ele>1604.299</ele>
+        <time>2020-07-28T08:57:06Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.297</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6292893" lon="5.9694516">
+        <ele>1604.957</ele>
+        <time>2020-07-28T08:57:22Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.431</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.629227" lon="5.9695192">
+        <ele>1605.165</ele>
+        <time>2020-07-28T08:57:37Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.469</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6291781" lon="5.9695481">
+        <ele>1604.16</ele>
+        <time>2020-07-28T08:57:52Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.184</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6291002" lon="5.9696762">
+        <ele>1602.249</ele>
+        <time>2020-07-28T08:58:08Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.513</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6290357" lon="5.9697225">
+        <ele>1600.791</ele>
+        <time>2020-07-28T08:58:23Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.325</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6289458" lon="5.9697592">
+        <ele>1598.653</ele>
+        <time>2020-07-28T08:58:39Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.649</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6289045" lon="5.9696878">
+        <ele>1597.25</ele>
+        <time>2020-07-28T08:58:54Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.319</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6288706" lon="5.9695783">
+        <ele>1596.416</ele>
+        <time>2020-07-28T08:59:09Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.276</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6287452" lon="5.9695466">
+        <ele>1595.349</ele>
+        <time>2020-07-28T08:59:25Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.869</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.628593" lon="5.9695951">
+        <ele>1591.513</ele>
+        <time>2020-07-28T08:59:41Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.794</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6284659" lon="5.9696306">
+        <ele>1589.346</ele>
+        <time>2020-07-28T08:59:57Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.809</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6283685" lon="5.9697093">
+        <ele>1585.826</ele>
+        <time>2020-07-28T09:00:13Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.362</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6282341" lon="5.96974">
+        <ele>1582.811</ele>
+        <time>2020-07-28T09:00:29Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.571</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6281042" lon="5.9697849">
+        <ele>1579.804</ele>
+        <time>2020-07-28T09:00:45Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.468</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6279681" lon="5.9699115">
+        <ele>1576.735</ele>
+        <time>2020-07-28T09:01:01Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.959</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6277761" lon="5.9699412">
+        <ele>1575.001</ele>
+        <time>2020-07-28T09:01:17Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.974</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6276468" lon="5.9699691">
+        <ele>1573.322</ele>
+        <time>2020-07-28T09:01:33Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.327</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6275585" lon="5.9699419">
+        <ele>1573.017</ele>
+        <time>2020-07-28T09:01:49Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.818</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6274474" lon="5.9698432">
+        <ele>1574.058</ele>
+        <time>2020-07-28T09:02:05Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.668</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6273822" lon="5.9697344">
+        <ele>1577.011</ele>
+        <time>2020-07-28T09:02:21Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.305</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6273387" lon="5.9695915">
+        <ele>1579.084</ele>
+        <time>2020-07-28T09:02:36Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.018</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.62721" lon="5.969617">
+        <ele>1582.244</ele>
+        <time>2020-07-28T09:02:52Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.625</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6270575" lon="5.9697132">
+        <ele>1584.898</ele>
+        <time>2020-07-28T09:03:08Z</time>
+        <hdop>32</hdop>
+        <extensions>
+          <speed>0.737</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6269748" lon="5.9697761">
+        <ele>1585.855</ele>
+        <time>2020-07-28T09:03:24Z</time>
+        <hdop>16</hdop>
+        <extensions>
+          <speed>0.153</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.626869" lon="5.9698194">
+        <ele>1584.462</ele>
+        <time>2020-07-28T09:03:40Z</time>
+        <hdop>16</hdop>
+        <extensions>
+          <speed>0.415</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6267695" lon="5.9697261">
+        <ele>1583.496</ele>
+        <time>2020-07-28T09:03:55Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.306</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6266766" lon="5.9696467">
+        <ele>1581.684</ele>
+        <time>2020-07-28T09:04:11Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.201</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6265508" lon="5.9696145">
+        <ele>1580.788</ele>
+        <time>2020-07-28T09:04:26Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.532</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6264591" lon="5.9695177">
+        <ele>1579.332</ele>
+        <time>2020-07-28T09:04:42Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.365</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6263709" lon="5.9694448">
+        <ele>1578.342</ele>
+        <time>2020-07-28T09:04:57Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.274</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6262863" lon="5.9693549">
+        <ele>1578.899</ele>
+        <time>2020-07-28T09:05:13Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.402</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6261711" lon="5.9692591">
+        <ele>1581.421</ele>
+        <time>2020-07-28T09:05:29Z</time>
+        <hdop>6</hdop>
+        <extensions>
+          <speed>0.549</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6260331" lon="5.9691612">
+        <ele>1582.059</ele>
+        <time>2020-07-28T09:05:45Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.347</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6259778" lon="5.9690895">
+        <ele>1582.337</ele>
+        <time>2020-07-28T09:06:01Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.132</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6258894" lon="5.9689862">
+        <ele>1582.032</ele>
+        <time>2020-07-28T09:06:17Z</time>
+        <hdop>6</hdop>
+        <extensions>
+          <speed>0.376</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6257739" lon="5.9689092">
+        <ele>1581.696</ele>
+        <time>2020-07-28T09:06:32Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.039</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6256476" lon="5.9689892">
+        <ele>1580.867</ele>
+        <time>2020-07-28T09:06:48Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.402</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6255819" lon="5.9690987">
+        <ele>1579.821</ele>
+        <time>2020-07-28T09:07:03Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.424</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.625455" lon="5.9691156">
+        <ele>1580.371</ele>
+        <time>2020-07-28T09:07:19Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.533</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6253193" lon="5.969166">
+        <ele>1580.75</ele>
+        <time>2020-07-28T09:07:35Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.617</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6251831" lon="5.9692752">
+        <ele>1580.824</ele>
+        <time>2020-07-28T09:07:51Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.466</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6250441" lon="5.9693133">
+        <ele>1581.179</ele>
+        <time>2020-07-28T09:08:07Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.06</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6248778" lon="5.9693403">
+        <ele>1580.475</ele>
+        <time>2020-07-28T09:08:23Z</time>
+        <hdop>6</hdop>
+        <extensions>
+          <speed>0.679</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6247579" lon="5.969248">
+        <ele>1578.969</ele>
+        <time>2020-07-28T09:08:39Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.613</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6246551" lon="5.9691621">
+        <ele>1576.943</ele>
+        <time>2020-07-28T09:08:54Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.454</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6245459" lon="5.9691492">
+        <ele>1576.271</ele>
+        <time>2020-07-28T09:09:10Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.219</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6244138" lon="5.9691126">
+        <ele>1576.478</ele>
+        <time>2020-07-28T09:09:25Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.346</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6243132" lon="5.9690887">
+        <ele>1576.73</ele>
+        <time>2020-07-28T09:09:41Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.007</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6241592" lon="5.9690058">
+        <ele>1576.974</ele>
+        <time>2020-07-28T09:09:57Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.235</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6240186" lon="5.9688862">
+        <ele>1577.203</ele>
+        <time>2020-07-28T09:10:13Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.494</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6238816" lon="5.9688143">
+        <ele>1577.095</ele>
+        <time>2020-07-28T09:10:29Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.403</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6237236" lon="5.9687163">
+        <ele>1575.976</ele>
+        <time>2020-07-28T09:10:45Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.245</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6235877" lon="5.9686143">
+        <ele>1574.587</ele>
+        <time>2020-07-28T09:11:01Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.347</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.623494" lon="5.9685421">
+        <ele>1575.015</ele>
+        <time>2020-07-28T09:11:17Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.188</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6233912" lon="5.968469">
+        <ele>1576.282</ele>
+        <time>2020-07-28T09:11:33Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.289</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6232623" lon="5.9684738">
+        <ele>1577.619</ele>
+        <time>2020-07-28T09:11:48Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.201</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6231385" lon="5.9685134">
+        <ele>1577.868</ele>
+        <time>2020-07-28T09:12:04Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.114</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6230313" lon="5.968619">
+        <ele>1578.13</ele>
+        <time>2020-07-28T09:12:20Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.459</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6229149" lon="5.9686098">
+        <ele>1578.478</ele>
+        <time>2020-07-28T09:12:35Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.254</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6228142" lon="5.9685205">
+        <ele>1579.416</ele>
+        <time>2020-07-28T09:12:51Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.29</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6227145" lon="5.9684319">
+        <ele>1580.953</ele>
+        <time>2020-07-28T09:13:07Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.44</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6225419" lon="5.968349">
+        <ele>1583.087</ele>
+        <time>2020-07-28T09:13:23Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.631</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6224397" lon="5.9682728">
+        <ele>1583.712</ele>
+        <time>2020-07-28T09:13:39Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.69</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6223213" lon="5.968246">
+        <ele>1585.302</ele>
+        <time>2020-07-28T09:13:54Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.241</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6222327" lon="5.9681493">
+        <ele>1585.452</ele>
+        <time>2020-07-28T09:14:09Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.292</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6220921" lon="5.968054">
+        <ele>1586.076</ele>
+        <time>2020-07-28T09:14:25Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.412</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.621969" lon="5.9680213">
+        <ele>1586.63</ele>
+        <time>2020-07-28T09:14:40Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.412</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6217946" lon="5.9680034">
+        <ele>1588.835</ele>
+        <time>2020-07-28T09:14:56Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.318</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6216666" lon="5.9680356">
+        <ele>1589.868</ele>
+        <time>2020-07-28T09:15:12Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.267</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.621525" lon="5.9680739">
+        <ele>1591.339</ele>
+        <time>2020-07-28T09:15:28Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.362</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6214156" lon="5.9680492">
+        <ele>1592.312</ele>
+        <time>2020-07-28T09:15:44Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.227</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6213075" lon="5.9680033">
+        <ele>1591.686</ele>
+        <time>2020-07-28T09:15:59Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.05</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6211548" lon="5.968015">
+        <ele>1594.404</ele>
+        <time>2020-07-28T09:16:15Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.398</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6210517" lon="5.9680511">
+        <ele>1595.231</ele>
+        <time>2020-07-28T09:16:30Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.334</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6209412" lon="5.9681287">
+        <ele>1596.14</ele>
+        <time>2020-07-28T09:16:46Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.179</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6208596" lon="5.9682225">
+        <ele>1596.622</ele>
+        <time>2020-07-28T09:17:02Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.445</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6207676" lon="5.9681783">
+        <ele>1596.698</ele>
+        <time>2020-07-28T09:17:17Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.603</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.620644" lon="5.9681334">
+        <ele>1595.773</ele>
+        <time>2020-07-28T09:17:33Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.492</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6205451" lon="5.9680872">
+        <ele>1593.395</ele>
+        <time>2020-07-28T09:17:49Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.222</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6203957" lon="5.9680753">
+        <ele>1591.845</ele>
+        <time>2020-07-28T09:18:05Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.763</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6202712" lon="5.9681409">
+        <ele>1591.728</ele>
+        <time>2020-07-28T09:18:20Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.331</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6201412" lon="5.9681586">
+        <ele>1592.27</ele>
+        <time>2020-07-28T09:18:35Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.335</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6199355" lon="5.9683362">
+        <ele>1591.367</ele>
+        <time>2020-07-28T09:18:50Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.552</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6198743" lon="5.9684988">
+        <ele>1589.429</ele>
+        <time>2020-07-28T09:19:06Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.255</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6197891" lon="5.9686198">
+        <ele>1588.675</ele>
+        <time>2020-07-28T09:19:22Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.398</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6196605" lon="5.96861">
+        <ele>1588.4</ele>
+        <time>2020-07-28T09:19:38Z</time>
+        <hdop>6</hdop>
+        <extensions>
+          <speed>0.038</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6195958" lon="5.9686106">
+        <ele>1588.347</ele>
+        <time>2020-07-28T09:19:54Z</time>
+        <hdop>6</hdop>
+        <extensions>
+          <speed>0.168</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6194494" lon="5.9685491">
+        <ele>1585.662</ele>
+        <time>2020-07-28T09:20:10Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.352</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6193627" lon="5.9686093">
+        <ele>1583.638</ele>
+        <time>2020-07-28T09:20:26Z</time>
+        <hdop>6</hdop>
+        <extensions>
+          <speed>0.268</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.619244" lon="5.9686341">
+        <ele>1581.442</ele>
+        <time>2020-07-28T09:20:42Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.278</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6192011" lon="5.9686539">
+        <ele>1578.964</ele>
+        <time>2020-07-28T09:20:57Z</time>
+        <hdop>6</hdop>
+        <extensions>
+          <speed>0.45</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.619097" lon="5.9686002">
+        <ele>1574.319</ele>
+        <time>2020-07-28T09:21:13Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.394</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6189711" lon="5.9685319">
+        <ele>1569.607</ele>
+        <time>2020-07-28T09:21:29Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.37</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6188802" lon="5.9684399">
+        <ele>1567.22</ele>
+        <time>2020-07-28T09:21:45Z</time>
+        <hdop>16</hdop>
+        <extensions>
+          <speed>0.318</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6187715" lon="5.9683396">
+        <ele>1568.479</ele>
+        <time>2020-07-28T09:22:01Z</time>
+        <hdop>16</hdop>
+        <extensions>
+          <speed>0.375</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6187306" lon="5.9683085">
+        <ele>1570.469</ele>
+        <time>2020-07-28T09:22:16Z</time>
+        <hdop>16</hdop>
+        <extensions>
+          <speed>0.23</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6185917" lon="5.9682361">
+        <ele>1572.237</ele>
+        <time>2020-07-28T09:22:32Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.26</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6185156" lon="5.9682435">
+        <ele>1573.069</ele>
+        <time>2020-07-28T09:22:47Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.031</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6184802" lon="5.9682849">
+        <ele>1573.432</ele>
+        <time>2020-07-28T09:23:06Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.044</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6184421" lon="5.9682308">
+        <ele>1576.138</ele>
+        <time>2020-07-28T09:25:26Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.371</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6183523" lon="5.9681795">
+        <ele>1575.934</ele>
+        <time>2020-07-28T09:25:41Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.513</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6182598" lon="5.9681116">
+        <ele>1574.85</ele>
+        <time>2020-07-28T09:25:57Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.469</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6181465" lon="5.9679992">
+        <ele>1573.546</ele>
+        <time>2020-07-28T09:26:13Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.264</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6180549" lon="5.9679091">
+        <ele>1573.949</ele>
+        <time>2020-07-28T09:26:29Z</time>
+        <hdop>6</hdop>
+        <extensions>
+          <speed>0.455</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6179362" lon="5.9677544">
+        <ele>1573.351</ele>
+        <time>2020-07-28T09:26:44Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.74</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6178102" lon="5.9677776">
+        <ele>1572.958</ele>
+        <time>2020-07-28T09:27:00Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.512</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6176954" lon="5.9678673">
+        <ele>1573.614</ele>
+        <time>2020-07-28T09:27:16Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.318</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6175961" lon="5.9679603">
+        <ele>1574.026</ele>
+        <time>2020-07-28T09:27:32Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.353</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.617423" lon="5.967984">
+        <ele>1575.097</ele>
+        <time>2020-07-28T09:27:48Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.501</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6172893" lon="5.9679812">
+        <ele>1574.571</ele>
+        <time>2020-07-28T09:28:03Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.528</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6172494" lon="5.9679352">
+        <ele>1573.468</ele>
+        <time>2020-07-28T09:28:19Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.062</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6171331" lon="5.9678646">
+        <ele>1573.913</ele>
+        <time>2020-07-28T09:28:35Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.203</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6170584" lon="5.9677851">
+        <ele>1574.397</ele>
+        <time>2020-07-28T09:28:51Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.145</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6169206" lon="5.9676534">
+        <ele>1574.795</ele>
+        <time>2020-07-28T09:29:06Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.634</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6167569" lon="5.9676268">
+        <ele>1575.024</ele>
+        <time>2020-07-28T09:29:22Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.252</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6166375" lon="5.9675777">
+        <ele>1574.14</ele>
+        <time>2020-07-28T09:29:38Z</time>
+        <hdop>6</hdop>
+        <extensions>
+          <speed>0.242</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6164692" lon="5.9675682">
+        <ele>1572.999</ele>
+        <time>2020-07-28T09:29:53Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.398</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6162877" lon="5.9675899">
+        <ele>1572.103</ele>
+        <time>2020-07-28T09:30:08Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.405</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6161438" lon="5.9675464">
+        <ele>1571.561</ele>
+        <time>2020-07-28T09:30:24Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.328</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6160045" lon="5.9674971">
+        <ele>1570.71</ele>
+        <time>2020-07-28T09:30:40Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.492</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6158911" lon="5.9673535">
+        <ele>1570.496</ele>
+        <time>2020-07-28T09:30:55Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.364</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6157569" lon="5.9672666">
+        <ele>1570.232</ele>
+        <time>2020-07-28T09:31:11Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.474</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6156288" lon="5.9671833">
+        <ele>1570.22</ele>
+        <time>2020-07-28T09:31:26Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.485</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6154507" lon="5.9671064">
+        <ele>1570.098</ele>
+        <time>2020-07-28T09:31:42Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.572</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6153731" lon="5.9670429">
+        <ele>1570.114</ele>
+        <time>2020-07-28T09:31:58Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.002</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.615239" lon="5.9670464">
+        <ele>1569.44</ele>
+        <time>2020-07-28T09:32:13Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.06</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6151269" lon="5.9670309">
+        <ele>1568.64</ele>
+        <time>2020-07-28T09:32:29Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.358</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6149897" lon="5.9668813">
+        <ele>1569.298</ele>
+        <time>2020-07-28T09:32:45Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.561</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6149014" lon="5.9667594">
+        <ele>1569.495</ele>
+        <time>2020-07-28T09:33:01Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.613</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.614744" lon="5.9666222">
+        <ele>1569.278</ele>
+        <time>2020-07-28T09:33:17Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.191</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6146004" lon="5.9665918">
+        <ele>1569.625</ele>
+        <time>2020-07-28T09:33:32Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.583</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.614495" lon="5.9665708">
+        <ele>1569.073</ele>
+        <time>2020-07-28T09:33:47Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.269</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6144109" lon="5.9665848">
+        <ele>1568.667</ele>
+        <time>2020-07-28T09:34:03Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.191</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6144549" lon="5.9666075">
+        <ele>1569.421</ele>
+        <time>2020-07-28T09:35:31Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.065</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6144126" lon="5.9666414">
+        <ele>1569.769</ele>
+        <time>2020-07-28T09:35:59Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.411</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6143577" lon="5.9667529">
+        <ele>1569.749</ele>
+        <time>2020-07-28T09:36:15Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.374</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6142712" lon="5.9668771">
+        <ele>1570.314</ele>
+        <time>2020-07-28T09:36:31Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.204</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.614238" lon="5.9669933">
+        <ele>1570.967</ele>
+        <time>2020-07-28T09:36:47Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.03</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6141872" lon="5.9668929">
+        <ele>1571.871</ele>
+        <time>2020-07-28T09:37:02Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.486</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6141268" lon="5.9667848">
+        <ele>1574.28</ele>
+        <time>2020-07-28T09:37:18Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.325</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6140748" lon="5.9666436">
+        <ele>1575.859</ele>
+        <time>2020-07-28T09:37:34Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.502</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6139584" lon="5.9665939">
+        <ele>1575.738</ele>
+        <time>2020-07-28T09:37:50Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.385</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6138987" lon="5.9665111">
+        <ele>1576.641</ele>
+        <time>2020-07-28T09:38:06Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.421</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6138155" lon="5.966397">
+        <ele>1576.883</ele>
+        <time>2020-07-28T09:38:22Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.421</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6137121" lon="5.966281">
+        <ele>1577.631</ele>
+        <time>2020-07-28T09:38:38Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.523</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6136713" lon="5.9661862">
+        <ele>1579.758</ele>
+        <time>2020-07-28T09:38:54Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.383</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6136804" lon="5.9660867">
+        <ele>1581.618</ele>
+        <time>2020-07-28T09:39:09Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.336</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6137153" lon="5.9659679">
+        <ele>1582.582</ele>
+        <time>2020-07-28T09:39:24Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.368</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6136822" lon="5.9658302">
+        <ele>1584.826</ele>
+        <time>2020-07-28T09:39:40Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.413</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6136447" lon="5.9657333">
+        <ele>1586.582</ele>
+        <time>2020-07-28T09:39:55Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.481</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6136334" lon="5.9656445">
+        <ele>1588.07</ele>
+        <time>2020-07-28T09:40:11Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.346</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6136217" lon="5.9655819">
+        <ele>1589.485</ele>
+        <time>2020-07-28T09:40:28Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.524</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6135926" lon="5.9655323">
+        <ele>1590.916</ele>
+        <time>2020-07-28T09:40:48Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.221</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6135887" lon="5.9654663">
+        <ele>1592.872</ele>
+        <time>2020-07-28T09:42:58Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.102</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.613588" lon="5.965531">
+        <ele>1593.632</ele>
+        <time>2020-07-28T09:43:35Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.315</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.61354" lon="5.9655342">
+        <ele>1594.022</ele>
+        <time>2020-07-28T09:44:03Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.557</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6134938" lon="5.9655315">
+        <ele>1597.192</ele>
+        <time>2020-07-28T09:56:13Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.362</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.613508" lon="5.965598">
+        <ele>1596.689</ele>
+        <time>2020-07-28T09:56:34Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.581</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6135894" lon="5.9656621">
+        <ele>1595.651</ele>
+        <time>2020-07-28T09:56:50Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.612</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6136169" lon="5.9657342">
+        <ele>1594.642</ele>
+        <time>2020-07-28T09:57:05Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.348</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6136518" lon="5.9658003">
+        <ele>1593.353</ele>
+        <time>2020-07-28T09:57:21Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.017</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6136748" lon="5.9658576">
+        <ele>1592.153</ele>
+        <time>2020-07-28T09:57:37Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.248</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6136771" lon="5.9659745">
+        <ele>1591.018</ele>
+        <time>2020-07-28T09:57:53Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.4</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6136383" lon="5.9661893">
+        <ele>1589.597</ele>
+        <time>2020-07-28T09:58:09Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.495</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6137264" lon="5.9663103">
+        <ele>1587.324</ele>
+        <time>2020-07-28T09:58:25Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.488</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6137937" lon="5.9663783">
+        <ele>1585.044</ele>
+        <time>2020-07-28T09:58:40Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.655</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6138926" lon="5.9665412">
+        <ele>1582.68</ele>
+        <time>2020-07-28T09:58:56Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.481</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6139869" lon="5.9666007">
+        <ele>1581.004</ele>
+        <time>2020-07-28T09:59:11Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.433</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6140345" lon="5.9666582">
+        <ele>1579.468</ele>
+        <time>2020-07-28T09:59:27Z</time>
+        <hdop>3</hdop>
+        <extensions>
+          <speed>0.136</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6140834" lon="5.9666479">
+        <ele>1578.917</ele>
+        <time>2020-07-28T09:59:42Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.002</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6140667" lon="5.9667083">
+        <ele>1578.21</ele>
+        <time>2020-07-28T10:00:23Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.155</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6140812" lon="5.9667942">
+        <ele>1578.058</ele>
+        <time>2020-07-28T10:00:38Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.155</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6141329" lon="5.9669011">
+        <ele>1577.681</ele>
+        <time>2020-07-28T10:00:54Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.036</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6141537" lon="5.9669625">
+        <ele>1577.758</ele>
+        <time>2020-07-28T10:01:11Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.042</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6141931" lon="5.9670559">
+        <ele>1576.885</ele>
+        <time>2020-07-28T10:01:26Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.186</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6142249" lon="5.9672338">
+        <ele>1575.084</ele>
+        <time>2020-07-28T10:01:42Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.281</speed>
+        </extensions>
+      </trkpt>
+      <trkpt lat="45.6142599" lon="5.9673277">
+        <ele>1574.705</ele>
+        <time>2020-07-28T10:01:58Z</time>
+        <hdop>4</hdop>
+        <extensions>
+          <speed>0.008</speed>
+        </extensions>
+      </trkpt>
+    </trkseg>
+  </trk>
+</gpx>
